@@ -1,0 +1,6 @@
+Die hab ich mir angesehen:
+
+Gource 		(SVN) http://www.pro-linux.de/kurztipps/2/1674/visualisieren-von-repositorien-mit-gource.html
+Verschiedene 	(GIT) http://de.gitready.com/intermediate/2009/01/13/visualizing-your-repo.html
+GitWeb		(GIT) http://git-scm.com/book/de/v1/Git-auf-dem-Server-GitWeb
+[nicht wirklich visuell]

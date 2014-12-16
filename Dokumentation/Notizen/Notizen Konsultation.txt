@@ -1,0 +1,24 @@
+pflichtenheft nach… (wissenschaftliche herangehensweise gut; inhalt dann nur noch zu liefern)
+bei r43ples revisionen anstatt commit
+
+Daten (anzuzeigen):
+1. Commit-Nr
+
+2. Autor
+3. Commentar
+4. Datum
+
+Branchinformation an die Linie dran und nicht drauf
+
+visualisierung analyse (git usw.): Zeilen, spalten?
+-> erzählen was man gemacht hat (in präsentation)
+--> wissenschaftliche begründung und nachvollziehbarkeit!
+
+nicht nur graphische, sondern auch interaktionskonzepte vorstellen!
+
+tags müssen noch rein!
+Wenn immer ganz links: verbindung zu einem entfernteren commit (gesetz der nähe)
+
+farbwahl: harmonierend -> farbpaletten
+
+Konzept noch mal richtig zeichnen

@@ -1,0 +1,3631 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://eatld.et.tu-dresden.de/rmo#> .
+<http://dbpedia.org-commit-1>	rdf:type	ns1:Commit .
+@prefix ns2:	<http://www.w3.org/ns/prov#> .
+<http://dbpedia.org-commit-1>	ns2:generated	<http://dbpedia.org-revision-1> .
+@prefix ns3:	<http://eatld.et.tu-dresden.de/persons/> .
+<http://dbpedia.org-commit-1>	ns2:wasAssociatedWith	ns3:dbpedia-test .
+@prefix ns4:	<http://purl.org/dc/terms/> .
+<http://dbpedia.org-commit-1>	ns4:title	"create revision 1" ;
+	ns2:atTime	"2014-09-16T12:59:49" ,
+		"2014-09-16T13:14:17" ;
+	ns2:used	<http://dbpedia.org-revision-0> .
+<http://dbpedia.org-revision-1>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-1> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-1> ;
+	ns1:revisionNumber	"1" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-0> .
+<http://dbpedia.org-commit-9>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-9> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 9" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:19" ;
+	ns2:used	<http://dbpedia.org-revision-8> .
+<http://dbpedia.org-revision-9>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-9> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-9> ;
+	ns1:revisionNumber	"9" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-8> .
+<http://dbpedia.org-commit-10>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-10> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 10" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:19" ;
+	ns2:used	<http://dbpedia.org-revision-9> .
+<http://dbpedia.org-revision-10>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-10> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-10> ;
+	ns1:revisionNumber	"10" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-9> .
+<http://dbpedia.org-commit-11>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-11> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 11" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:20" ;
+	ns2:used	<http://dbpedia.org-revision-10> .
+<http://dbpedia.org-revision-11>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-11> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-11> ;
+	ns1:revisionNumber	"11" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-10> .
+<http://dbpedia.org-commit-12>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-12> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 12" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:20" ;
+	ns2:used	<http://dbpedia.org-revision-11> .
+<http://dbpedia.org-revision-12>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-12> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-12> ;
+	ns1:revisionNumber	"12" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-11> .
+<http://dbpedia.org-commit-13>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-13> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 13" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:20" ;
+	ns2:used	<http://dbpedia.org-revision-12> .
+<http://dbpedia.org-revision-13>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-13> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-13> ;
+	ns1:revisionNumber	"13" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-12> .
+<http://dbpedia.org-commit-14>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-14> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 14" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:20" ;
+	ns2:used	<http://dbpedia.org-revision-13> .
+<http://dbpedia.org-revision-14>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-14> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-14> ;
+	ns1:revisionNumber	"14" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-13> .
+<http://dbpedia.org-commit-15>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-15> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 15" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:20" ;
+	ns2:used	<http://dbpedia.org-revision-14> .
+<http://dbpedia.org-revision-15>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-15> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-15> ;
+	ns1:revisionNumber	"15" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-14> .
+<http://dbpedia.org-commit-23>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-23> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 23" ;
+	ns2:atTime	"2014-09-16T13:14:21" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-22> .
+<http://dbpedia.org-revision-23>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-23> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-23> ;
+	ns1:revisionNumber	"23" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-22> .
+<http://dbpedia.org-commit-24>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-24> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 24" ;
+	ns2:atTime	"2014-09-16T13:14:21" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-23> .
+<http://dbpedia.org-revision-24>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-24> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-24> ;
+	ns1:revisionNumber	"24" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-23> .
+<http://dbpedia.org-commit-25>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-25> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 25" ;
+	ns2:atTime	"2014-09-16T13:14:21" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-24> .
+<http://dbpedia.org-revision-25>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-25> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-25> ;
+	ns1:revisionNumber	"25" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-24> .
+<http://dbpedia.org-commit-26>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-26> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 26" ;
+	ns2:atTime	"2014-09-16T13:14:21" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-25> .
+<http://dbpedia.org-revision-26>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-26> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-26> ;
+	ns1:revisionNumber	"26" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-25> .
+<http://dbpedia.org-commit-27>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-27> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 27" ;
+	ns2:atTime	"2014-09-16T13:14:22" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-26> .
+<http://dbpedia.org-revision-27>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-27> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-27> ;
+	ns1:revisionNumber	"27" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-26> .
+<http://dbpedia.org-commit-28>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-28> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 28" ;
+	ns2:atTime	"2014-09-16T13:14:22" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-27> .
+<http://dbpedia.org-revision-28>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-28> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-28> ;
+	ns1:revisionNumber	"28" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-27> .
+<http://dbpedia.org-commit-29>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-29> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 29" ;
+	ns2:atTime	"2014-09-16T13:14:22" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-28> .
+<http://dbpedia.org-revision-29>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-29> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-29> ;
+	ns1:revisionNumber	"29" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-28> .
+<http://dbpedia.org-commit-30>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-30> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 30" ;
+	ns2:atTime	"2014-09-16T13:14:22" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-29> .
+<http://dbpedia.org-revision-30>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-30> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-30> ;
+	ns1:revisionNumber	"30" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-29> .
+<http://dbpedia.org-commit-31>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-31> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 31" ;
+	ns2:atTime	"2014-09-16T13:14:22" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-30> .
+<http://dbpedia.org-revision-31>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-31> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-31> ;
+	ns1:revisionNumber	"31" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-30> .
+<http://dbpedia.org-commit-32>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-32> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 32" ;
+	ns2:atTime	"2014-09-16T13:14:22" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-31> .
+<http://dbpedia.org-revision-32>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-32> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-32> ;
+	ns1:revisionNumber	"32" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-31> .
+<http://dbpedia.org-commit-33>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-33> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 33" ;
+	ns2:atTime	"2014-09-16T13:14:22" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-32> .
+<http://dbpedia.org-revision-33>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-33> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-33> ;
+	ns1:revisionNumber	"33" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-32> .
+<http://dbpedia.org-commit-34>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-34> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 34" ;
+	ns2:atTime	"2014-09-16T13:14:23" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-33> .
+<http://dbpedia.org-revision-34>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-34> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-34> ;
+	ns1:revisionNumber	"34" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-33> .
+<http://dbpedia.org-commit-35>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-35> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 35" ;
+	ns2:atTime	"2014-09-16T13:14:23" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-34> .
+<http://dbpedia.org-revision-35>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-35> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-35> ;
+	ns1:revisionNumber	"35" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-34> .
+<http://dbpedia.org-commit-36>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-36> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 36" ;
+	ns2:atTime	"2014-09-16T13:14:23" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-35> .
+<http://dbpedia.org-revision-36>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-36> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-36> ;
+	ns1:revisionNumber	"36" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-35> .
+<http://dbpedia.org-commit-37>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-37> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 37" ;
+	ns2:atTime	"2014-09-16T13:14:23" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-36> .
+<http://dbpedia.org-revision-37>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-37> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-37> ;
+	ns1:revisionNumber	"37" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-36> .
+<http://dbpedia.org-commit-38>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-38> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 38" ;
+	ns2:atTime	"2014-09-16T13:14:23" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-37> .
+<http://dbpedia.org-revision-38>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-38> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-38> ;
+	ns1:revisionNumber	"38" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-37> .
+<http://dbpedia.org-commit-39>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-39> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 39" ;
+	ns2:atTime	"2014-09-16T13:14:23" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-38> .
+<http://dbpedia.org-revision-39>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-39> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-39> ;
+	ns1:revisionNumber	"39" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-38> .
+<http://dbpedia.org-commit-40>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-40> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 40" ;
+	ns2:atTime	"2014-09-16T13:14:23" ,
+		"2014-09-16T12:59:53" ;
+	ns2:used	<http://dbpedia.org-revision-39> .
+<http://dbpedia.org-revision-40>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-40> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-40> ;
+	ns1:revisionNumber	"40" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-39> .
+<http://dbpedia.org-commit-41>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-41> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 41" ;
+	ns2:atTime	"2014-09-16T13:14:23" ,
+		"2014-09-16T12:59:54" ;
+	ns2:used	<http://dbpedia.org-revision-40> .
+<http://dbpedia.org-revision-41>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-41> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-41> ;
+	ns1:revisionNumber	"41" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-40> .
+<http://dbpedia.org-commit-42>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-42> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 42" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:24" ;
+	ns2:used	<http://dbpedia.org-revision-41> .
+<http://dbpedia.org-revision-42>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-42> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-42> ;
+	ns1:revisionNumber	"42" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-41> .
+<http://dbpedia.org-commit-43>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-43> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 43" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:24" ;
+	ns2:used	<http://dbpedia.org-revision-42> .
+<http://dbpedia.org-revision-43>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-43> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-43> ;
+	ns1:revisionNumber	"43" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-42> .
+<http://dbpedia.org-commit-44>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-44> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 44" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:24" ;
+	ns2:used	<http://dbpedia.org-revision-43> .
+<http://dbpedia.org-revision-44>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-44> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-44> ;
+	ns1:revisionNumber	"44" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-43> .
+<http://dbpedia.org-commit-45>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-45> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 45" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:24" ;
+	ns2:used	<http://dbpedia.org-revision-44> .
+<http://dbpedia.org-revision-45>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-45> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-45> ;
+	ns1:revisionNumber	"45" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-44> .
+<http://dbpedia.org-commit-46>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-46> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 46" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:24" ;
+	ns2:used	<http://dbpedia.org-revision-45> .
+<http://dbpedia.org-revision-46>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-46> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-46> ;
+	ns1:revisionNumber	"46" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-45> .
+<http://dbpedia.org-commit-47>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-47> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 47" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:24" ;
+	ns2:used	<http://dbpedia.org-revision-46> .
+<http://dbpedia.org-revision-47>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-47> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-47> ;
+	ns1:revisionNumber	"47" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-46> .
+<http://dbpedia.org-commit-48>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-48> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 48" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:24" ;
+	ns2:used	<http://dbpedia.org-revision-47> .
+<http://dbpedia.org-revision-48>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-48> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-48> ;
+	ns1:revisionNumber	"48" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-47> .
+<http://dbpedia.org-commit-49>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-49> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 49" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:24" ;
+	ns2:used	<http://dbpedia.org-revision-48> .
+<http://dbpedia.org-revision-49>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-49> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-49> ;
+	ns1:revisionNumber	"49" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-48> .
+<http://dbpedia.org-commit-50>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-50> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 50" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:25" ;
+	ns2:used	<http://dbpedia.org-revision-49> .
+<http://dbpedia.org-revision-50>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-50> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-50> ;
+	ns1:revisionNumber	"50" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-49> .
+<http://dbpedia.org-commit-51>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-51> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 51" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:25" ;
+	ns2:used	<http://dbpedia.org-revision-50> .
+<http://dbpedia.org-revision-51>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-51> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-51> ;
+	ns1:revisionNumber	"51" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-50> .
+<http://dbpedia.org-commit-52>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-52> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 52" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:25" ;
+	ns2:used	<http://dbpedia.org-revision-51> .
+<http://dbpedia.org-revision-52>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-52> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-52> ;
+	ns1:revisionNumber	"52" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-51> .
+<http://dbpedia.org-commit-53>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-53> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 53" ;
+	ns2:atTime	"2014-09-16T12:59:54" ,
+		"2014-09-16T13:14:25" ;
+	ns2:used	<http://dbpedia.org-revision-52> .
+<http://dbpedia.org-revision-53>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-53> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-53> ;
+	ns1:revisionNumber	"53" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-52> .
+<http://dbpedia.org-commit-54>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-54> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 54" ;
+	ns2:atTime	"2014-09-16T12:59:55" ,
+		"2014-09-16T13:14:25" ;
+	ns2:used	<http://dbpedia.org-revision-53> .
+<http://dbpedia.org-revision-54>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-54> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-54> ;
+	ns1:revisionNumber	"54" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-53> .
+<http://dbpedia.org-commit-55>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-55> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 55" ;
+	ns2:atTime	"2014-09-16T12:59:55" ,
+		"2014-09-16T13:14:25" ;
+	ns2:used	<http://dbpedia.org-revision-54> .
+<http://dbpedia.org-revision-55>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-55> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-55> ;
+	ns1:revisionNumber	"55" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-54> .
+<http://dbpedia.org-commit-56>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-56> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 56" ;
+	ns2:atTime	"2014-09-16T12:59:55" ,
+		"2014-09-16T13:14:25" ;
+	ns2:used	<http://dbpedia.org-revision-55> .
+<http://dbpedia.org-revision-56>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-56> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-56> ;
+	ns1:revisionNumber	"56" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-55> .
+<http://dbpedia.org-commit-57>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-57> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 57" ;
+	ns2:atTime	"2014-09-16T13:14:26" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-56> .
+<http://dbpedia.org-revision-57>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-57> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-57> ;
+	ns1:revisionNumber	"57" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-56> .
+<http://dbpedia.org-commit-58>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-58> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 58" ;
+	ns2:atTime	"2014-09-16T13:14:26" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-57> .
+<http://dbpedia.org-revision-58>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-58> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-58> ;
+	ns1:revisionNumber	"58" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-57> .
+<http://dbpedia.org-commit-59>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-59> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 59" ;
+	ns2:atTime	"2014-09-16T13:14:26" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-58> .
+<http://dbpedia.org-revision-59>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-59> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-59> ;
+	ns1:revisionNumber	"59" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-58> .
+<http://dbpedia.org-commit-60>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-60> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 60" ;
+	ns2:atTime	"2014-09-16T13:14:26" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-59> .
+<http://dbpedia.org-revision-60>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-60> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-60> ;
+	ns1:revisionNumber	"60" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-59> .
+<http://dbpedia.org-commit-61>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-61> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 61" ;
+	ns2:atTime	"2014-09-16T13:14:26" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-60> .
+<http://dbpedia.org-revision-61>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-61> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-61> ;
+	ns1:revisionNumber	"61" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-60> .
+<http://dbpedia.org-commit-62>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-62> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 62" ;
+	ns2:atTime	"2014-09-16T13:14:26" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-61> .
+<http://dbpedia.org-revision-62>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-62> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-62> ;
+	ns1:revisionNumber	"62" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-61> .
+<http://dbpedia.org-commit-63>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-63> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 63" ;
+	ns2:atTime	"2014-09-16T13:14:26" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-62> .
+<http://dbpedia.org-revision-63>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-63> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-63> ;
+	ns1:revisionNumber	"63" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-62> .
+<http://dbpedia.org-commit-64>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-64> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 64" ;
+	ns2:atTime	"2014-09-16T13:14:26" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-63> .
+<http://dbpedia.org-revision-64>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-64> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-64> ;
+	ns1:revisionNumber	"64" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-63> .
+<http://dbpedia.org-commit-65>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-65> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 65" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-64> .
+<http://dbpedia.org-revision-65>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-65> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-65> ;
+	ns1:revisionNumber	"65" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-64> .
+<http://dbpedia.org-commit-66>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-66> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 66" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:55" ;
+	ns2:used	<http://dbpedia.org-revision-65> .
+<http://dbpedia.org-revision-66>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-66> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-66> ;
+	ns1:revisionNumber	"66" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-65> .
+<http://dbpedia.org-commit-67>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-67> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 67" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-66> .
+<http://dbpedia.org-revision-67>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-67> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-67> ;
+	ns1:revisionNumber	"67" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-66> .
+<http://dbpedia.org-commit-68>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-68> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 68" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-67> .
+<http://dbpedia.org-revision-68>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-68> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-68> ;
+	ns1:revisionNumber	"68" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-67> .
+<http://dbpedia.org-commit-69>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-69> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 69" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-68> .
+<http://dbpedia.org-revision-69>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-69> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-69> ;
+	ns1:revisionNumber	"69" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-68> .
+<http://dbpedia.org-commit-70>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-70> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 70" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-69> .
+<http://dbpedia.org-revision-70>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-70> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-70> ;
+	ns1:revisionNumber	"70" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-69> .
+<http://dbpedia.org-commit-71>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-71> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 71" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-70> .
+<http://dbpedia.org-revision-71>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-71> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-71> ;
+	ns1:revisionNumber	"71" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-70> .
+<http://dbpedia.org-commit-72>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-72> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 72" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-71> .
+<http://dbpedia.org-revision-72>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-72> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-72> ;
+	ns1:revisionNumber	"72" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-71> .
+<http://dbpedia.org-commit-73>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-73> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 73" ;
+	ns2:atTime	"2014-09-16T13:14:27" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-72> .
+<http://dbpedia.org-revision-73>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-73> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-73> ;
+	ns1:revisionNumber	"73" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-72> .
+<http://dbpedia.org-commit-74>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-74> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 74" ;
+	ns2:atTime	"2014-09-16T13:14:28" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-73> .
+<http://dbpedia.org-revision-74>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-74> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-74> ;
+	ns1:revisionNumber	"74" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-73> .
+<http://dbpedia.org-commit-75>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-75> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 75" ;
+	ns2:atTime	"2014-09-16T13:14:28" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-74> .
+<http://dbpedia.org-revision-75>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-75> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-75> ;
+	ns1:revisionNumber	"75" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-74> .
+<http://dbpedia.org-commit-76>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-76> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 76" ;
+	ns2:atTime	"2014-09-16T13:14:28" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-75> .
+<http://dbpedia.org-revision-76>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-76> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-76> ;
+	ns1:revisionNumber	"76" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-75> .
+<http://dbpedia.org-commit-77>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-77> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 77" ;
+	ns2:atTime	"2014-09-16T13:14:28" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-76> .
+<http://dbpedia.org-revision-77>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-77> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-77> ;
+	ns1:revisionNumber	"77" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-76> .
+<http://dbpedia.org-commit-78>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-78> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 78" ;
+	ns2:atTime	"2014-09-16T13:14:28" ,
+		"2014-09-16T12:59:56" ;
+	ns2:used	<http://dbpedia.org-revision-77> .
+<http://dbpedia.org-revision-78>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-78> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-78> ;
+	ns1:revisionNumber	"78" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-77> .
+<http://dbpedia.org-commit-79>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-79> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 79" ;
+	ns2:atTime	"2014-09-16T13:14:28" ,
+		"2014-09-16T12:59:57" ;
+	ns2:used	<http://dbpedia.org-revision-78> .
+<http://dbpedia.org-revision-79>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-79> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-79> ;
+	ns1:revisionNumber	"79" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-78> .
+<http://dbpedia.org-commit-80>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-80> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 80" ;
+	ns2:atTime	"2014-09-16T13:14:28" ,
+		"2014-09-16T12:59:57" ;
+	ns2:used	<http://dbpedia.org-revision-79> .
+<http://dbpedia.org-revision-80>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-80> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-80> ;
+	ns1:revisionNumber	"80" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-79> .
+<http://dbpedia.org-commit-81>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-81> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 81" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-80> .
+<http://dbpedia.org-revision-81>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-81> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-81> ;
+	ns1:revisionNumber	"81" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-80> .
+<http://dbpedia.org-commit-82>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-82> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 82" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-81> .
+<http://dbpedia.org-revision-82>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-82> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-82> ;
+	ns1:revisionNumber	"82" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-81> .
+<http://dbpedia.org-commit-83>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-83> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 83" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-82> .
+<http://dbpedia.org-revision-83>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-83> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-83> ;
+	ns1:revisionNumber	"83" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-82> .
+<http://dbpedia.org-commit-84>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-84> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 84" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-83> .
+<http://dbpedia.org-revision-84>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-84> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-84> ;
+	ns1:revisionNumber	"84" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-83> .
+<http://dbpedia.org-commit-85>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-85> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 85" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-84> .
+<http://dbpedia.org-revision-85>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-85> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-85> ;
+	ns1:revisionNumber	"85" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-84> .
+<http://dbpedia.org-commit-86>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-86> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 86" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-85> .
+<http://dbpedia.org-revision-86>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-86> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-86> ;
+	ns1:revisionNumber	"86" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-85> .
+<http://dbpedia.org-commit-87>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-87> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 87" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-86> .
+<http://dbpedia.org-revision-87>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-87> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-87> ;
+	ns1:revisionNumber	"87" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-86> .
+<http://dbpedia.org-commit-88>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-88> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 88" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-87> .
+<http://dbpedia.org-revision-88>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-88> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-88> ;
+	ns1:revisionNumber	"88" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-87> .
+<http://dbpedia.org-commit-89>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-89> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 89" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:29" ;
+	ns2:used	<http://dbpedia.org-revision-88> .
+<http://dbpedia.org-revision-89>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-89> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-89> ;
+	ns1:revisionNumber	"89" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-88> .
+<http://dbpedia.org-commit-90>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-90> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 90" ;
+	ns2:atTime	"2014-09-16T12:59:57" ,
+		"2014-09-16T13:14:30" ;
+	ns2:used	<http://dbpedia.org-revision-89> .
+<http://dbpedia.org-revision-90>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-90> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-90> ;
+	ns1:revisionNumber	"90" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-89> .
+<http://dbpedia.org-commit-91>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-91> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 91" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:30" ;
+	ns2:used	<http://dbpedia.org-revision-90> .
+<http://dbpedia.org-revision-91>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-91> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-91> ;
+	ns1:revisionNumber	"91" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-90> .
+<http://dbpedia.org-commit-92>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-92> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 92" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:30" ;
+	ns2:used	<http://dbpedia.org-revision-91> .
+<http://dbpedia.org-revision-92>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-92> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-92> ;
+	ns1:revisionNumber	"92" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-91> .
+<http://dbpedia.org-commit-93>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-93> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 93" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:30" ;
+	ns2:used	<http://dbpedia.org-revision-92> .
+<http://dbpedia.org-revision-93>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-93> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-93> ;
+	ns1:revisionNumber	"93" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-92> .
+<http://dbpedia.org-commit-94>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-94> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 94" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:30" ;
+	ns2:used	<http://dbpedia.org-revision-93> .
+<http://dbpedia.org-revision-94>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-94> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-94> ;
+	ns1:revisionNumber	"94" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-93> .
+<http://dbpedia.org-commit-95>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-95> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 95" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:30" ;
+	ns2:used	<http://dbpedia.org-revision-94> .
+<http://dbpedia.org-revision-95>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-95> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-95> ;
+	ns1:revisionNumber	"95" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-94> .
+<http://dbpedia.org-commit-96>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-96> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 96" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:30" ;
+	ns2:used	<http://dbpedia.org-revision-95> .
+<http://dbpedia.org-revision-96>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-96> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-96> ;
+	ns1:revisionNumber	"96" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-95> .
+<http://dbpedia.org-commit-97>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-97> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 97" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:30" ;
+	ns2:used	<http://dbpedia.org-revision-96> .
+<http://dbpedia.org-revision-97>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-97> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-97> ;
+	ns1:revisionNumber	"97" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-96> .
+<http://dbpedia.org-commit-98>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-98> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 98" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:31" ;
+	ns2:used	<http://dbpedia.org-revision-97> .
+<http://dbpedia.org-revision-98>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-98> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-98> ;
+	ns1:revisionNumber	"98" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-97> .
+<http://dbpedia.org-commit-99>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-99> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 99" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:31" ;
+	ns2:used	<http://dbpedia.org-revision-98> .
+<http://dbpedia.org-revision-99>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-99> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-99> ;
+	ns1:revisionNumber	"99" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-98> .
+<http://dbpedia.org-commit-100>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-100> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 100" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:31" ;
+	ns2:used	<http://dbpedia.org-revision-99> .
+<http://dbpedia.org-revision-100>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-100> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-100> ;
+	ns1:revisionNumber	"100" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-99> .
+<http://dbpedia.org-commit-101>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-101> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 101" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:31" ;
+	ns2:used	<http://dbpedia.org-revision-100> .
+<http://dbpedia.org-revision-101>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-101> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-101> ;
+	ns1:revisionNumber	"101" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-100> .
+<http://dbpedia.org-commit-102>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-102> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 102" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:31" ;
+	ns2:used	<http://dbpedia.org-revision-101> .
+<http://dbpedia.org-revision-102>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-102> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-102> ;
+	ns1:revisionNumber	"102" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-101> .
+<http://dbpedia.org-commit-103>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-103> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 103" ;
+	ns2:atTime	"2014-09-16T12:59:58" ,
+		"2014-09-16T13:14:31" ;
+	ns2:used	<http://dbpedia.org-revision-102> .
+<http://dbpedia.org-revision-103>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-103> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-103> ;
+	ns1:revisionNumber	"103" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-102> .
+<http://dbpedia.org-commit-104>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-104> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 104" ;
+	ns2:atTime	"2014-09-16T13:14:31" ,
+		"2014-09-16T12:59:59" ;
+	ns2:used	<http://dbpedia.org-revision-103> .
+<http://dbpedia.org-revision-104>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-104> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-104> ;
+	ns1:revisionNumber	"104" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-103> .
+<http://dbpedia.org-commit-105>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-105> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 105" ;
+	ns2:atTime	"2014-09-16T13:14:31" ,
+		"2014-09-16T12:59:59" ;
+	ns2:used	<http://dbpedia.org-revision-104> .
+<http://dbpedia.org-revision-105>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-105> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-105> ;
+	ns1:revisionNumber	"105" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-104> .
+<http://dbpedia.org-commit-106>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-106> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 106" ;
+	ns2:atTime	"2014-09-16T13:14:31" ,
+		"2014-09-16T12:59:59" ;
+	ns2:used	<http://dbpedia.org-revision-105> .
+<http://dbpedia.org-revision-106>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-106> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-106> ;
+	ns1:revisionNumber	"106" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-105> .
+<http://dbpedia.org-commit-107>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-107> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 107" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-106> .
+<http://dbpedia.org-revision-107>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-107> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-107> ;
+	ns1:revisionNumber	"107" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-106> .
+<http://dbpedia.org-commit-108>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-108> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 108" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-107> .
+<http://dbpedia.org-revision-108>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-108> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-108> ;
+	ns1:revisionNumber	"108" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-107> .
+<http://dbpedia.org-commit-5>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-5> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 5" ;
+	ns2:atTime	"2014-09-16T12:59:50" ,
+		"2014-09-16T13:14:19" ;
+	ns2:used	<http://dbpedia.org-revision-4> .
+<http://dbpedia.org-revision-5>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-5> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-5> ;
+	ns1:revisionNumber	"5" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-4> .
+<http://dbpedia.org-commit-6>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-6> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 6" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:19" ;
+	ns2:used	<http://dbpedia.org-revision-5> .
+<http://dbpedia.org-revision-6>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-6> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-6> ;
+	ns1:revisionNumber	"6" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-5> .
+<http://dbpedia.org-commit-7>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-7> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 7" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:19" ;
+	ns2:used	<http://dbpedia.org-revision-6> .
+<http://dbpedia.org-revision-7>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-7> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-7> ;
+	ns1:revisionNumber	"7" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-6> .
+<http://dbpedia.org-commit-8>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-8> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 8" ;
+	ns2:atTime	"2014-09-16T12:59:51" ,
+		"2014-09-16T13:14:19" ;
+	ns2:used	<http://dbpedia.org-revision-7> .
+<http://dbpedia.org-revision-8>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-8> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-8> ;
+	ns1:revisionNumber	"8" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-7> .
+<http://dbpedia.org-commit-16>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-16> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 16" ;
+	ns2:atTime	"2014-09-16T13:14:20" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-15> .
+<http://dbpedia.org-revision-16>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-16> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-16> ;
+	ns1:revisionNumber	"16" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-15> .
+<http://dbpedia.org-commit-17>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-17> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 17" ;
+	ns2:atTime	"2014-09-16T13:14:20" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-16> .
+<http://dbpedia.org-revision-17>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-17> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-17> ;
+	ns1:revisionNumber	"17" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-16> .
+<http://dbpedia.org-commit-18>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-18> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 18" ;
+	ns2:atTime	"2014-09-16T13:14:20" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-17> .
+<http://dbpedia.org-revision-18>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-18> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-18> ;
+	ns1:revisionNumber	"18" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-17> .
+<http://dbpedia.org-commit-19>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-19> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 19" ;
+	ns2:atTime	"2014-09-16T13:14:21" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-18> .
+<http://dbpedia.org-revision-19>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-19> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-19> ;
+	ns1:revisionNumber	"19" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-18> .
+<http://dbpedia.org-commit-20>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-20> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 20" ;
+	ns2:atTime	"2014-09-16T13:14:21" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-19> .
+<http://dbpedia.org-revision-20>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-20> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-20> ;
+	ns1:revisionNumber	"20" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-19> .
+<http://dbpedia.org-commit-21>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-21> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 21" ;
+	ns2:atTime	"2014-09-16T13:14:21" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-20> .
+<http://dbpedia.org-revision-21>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-21> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-21> ;
+	ns1:revisionNumber	"21" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-20> .
+<http://dbpedia.org-commit-22>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-22> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 22" ;
+	ns2:atTime	"2014-09-16T13:14:21" ,
+		"2014-09-16T12:59:52" ;
+	ns2:used	<http://dbpedia.org-revision-21> .
+<http://dbpedia.org-revision-22>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-22> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-22> ;
+	ns1:revisionNumber	"22" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-21> .
+<http://dbpedia.org-commit-109>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-109> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 109" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-108> .
+<http://dbpedia.org-revision-109>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-109> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-109> ;
+	ns1:revisionNumber	"109" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-108> .
+<http://dbpedia.org-commit-110>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-110> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 110" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-109> .
+<http://dbpedia.org-revision-110>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-110> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-110> ;
+	ns1:revisionNumber	"110" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-109> .
+<http://dbpedia.org-commit-111>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-111> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 111" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-110> .
+<http://dbpedia.org-revision-111>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-111> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-111> ;
+	ns1:revisionNumber	"111" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-110> .
+<http://dbpedia.org-commit-112>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-112> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 112" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-111> .
+<http://dbpedia.org-revision-112>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-112> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-112> ;
+	ns1:revisionNumber	"112" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-111> .
+<http://dbpedia.org-commit-113>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-113> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 113" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-112> .
+<http://dbpedia.org-revision-113>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-113> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-113> ;
+	ns1:revisionNumber	"113" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-112> .
+<http://dbpedia.org-commit-114>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-114> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 114" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-113> .
+<http://dbpedia.org-revision-114>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-114> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-114> ;
+	ns1:revisionNumber	"114" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-113> .
+<http://dbpedia.org-commit-115>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-115> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 115" ;
+	ns2:atTime	"2014-09-16T12:59:59" ,
+		"2014-09-16T13:14:32" ;
+	ns2:used	<http://dbpedia.org-revision-114> .
+<http://dbpedia.org-revision-115>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-115> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-115> ;
+	ns1:revisionNumber	"115" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-114> .
+<http://dbpedia.org-commit-116>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-116> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 116" ;
+	ns2:atTime	"2014-09-16T13:14:33" ,
+		"2014-09-16T12:59:59" ;
+	ns2:used	<http://dbpedia.org-revision-115> .
+<http://dbpedia.org-revision-116>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-116> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-116> ;
+	ns1:revisionNumber	"116" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-115> .
+<http://dbpedia.org-commit-117>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-117> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 117" ;
+	ns2:atTime	"2014-09-16T13:14:33" ,
+		"2014-09-16T12:59:59" ;
+	ns2:used	<http://dbpedia.org-revision-116> .
+<http://dbpedia.org-revision-117>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-117> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-117> ;
+	ns1:revisionNumber	"117" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-116> .
+<http://dbpedia.org-commit-118>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-118> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 118" ;
+	ns2:atTime	"2014-09-16T13:14:33" ,
+		"2014-09-16T12:59:59" ;
+	ns2:used	<http://dbpedia.org-revision-117> .
+<http://dbpedia.org-revision-118>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-118> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-118> ;
+	ns1:revisionNumber	"118" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-117> .
+<http://dbpedia.org-commit-119>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-119> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 119" ;
+	ns2:atTime	"2014-09-16T13:14:33" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-118> .
+<http://dbpedia.org-revision-119>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-119> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-119> ;
+	ns1:revisionNumber	"119" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-118> .
+<http://dbpedia.org-commit-120>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-120> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 120" ;
+	ns2:atTime	"2014-09-16T13:14:33" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-119> .
+<http://dbpedia.org-revision-120>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-120> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-120> ;
+	ns1:revisionNumber	"120" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-119> .
+<http://dbpedia.org-commit-121>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-121> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 121" ;
+	ns2:atTime	"2014-09-16T13:14:33" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-120> .
+<http://dbpedia.org-revision-121>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-121> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-121> ;
+	ns1:revisionNumber	"121" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-120> .
+<http://dbpedia.org-commit-122>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-122> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 122" ;
+	ns2:atTime	"2014-09-16T13:14:33" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-121> .
+<http://dbpedia.org-revision-122>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-122> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-122> ;
+	ns1:revisionNumber	"122" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-121> .
+<http://dbpedia.org-commit-123>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-123> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 123" ;
+	ns2:atTime	"2014-09-16T13:14:33" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-122> .
+<http://dbpedia.org-revision-123>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-123> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-123> ;
+	ns1:revisionNumber	"123" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-122> .
+<http://dbpedia.org-commit-124>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-124> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 124" ;
+	ns2:atTime	"2014-09-16T13:14:34" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-123> .
+<http://dbpedia.org-revision-124>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-124> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-124> ;
+	ns1:revisionNumber	"124" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-123> .
+<http://dbpedia.org-commit-125>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-125> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 125" ;
+	ns2:atTime	"2014-09-16T13:14:34" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-124> .
+<http://dbpedia.org-revision-125>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-125> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-125> ;
+	ns1:revisionNumber	"125" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-124> .
+<http://dbpedia.org-commit-126>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-126> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 126" ;
+	ns2:atTime	"2014-09-16T13:14:34" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-125> .
+<http://dbpedia.org-revision-126>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-126> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-126> ;
+	ns1:revisionNumber	"126" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-125> .
+<http://dbpedia.org-commit-127>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-127> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 127" ;
+	ns2:atTime	"2014-09-16T13:14:34" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-126> .
+<http://dbpedia.org-revision-127>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-127> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-127> ;
+	ns1:revisionNumber	"127" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-126> .
+<http://dbpedia.org-commit-128>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-128> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 128" ;
+	ns2:atTime	"2014-09-16T13:14:34" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-127> .
+<http://dbpedia.org-revision-128>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-128> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-128> ;
+	ns1:revisionNumber	"128" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-127> .
+<http://dbpedia.org-commit-129>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-129> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 129" ;
+	ns2:atTime	"2014-09-16T13:14:34" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-128> .
+<http://dbpedia.org-revision-129>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-129> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-129> ;
+	ns1:revisionNumber	"129" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-128> .
+<http://dbpedia.org-commit-130>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-130> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 130" ;
+	ns2:atTime	"2014-09-16T13:14:34" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-129> .
+<http://dbpedia.org-revision-130>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-130> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-130> ;
+	ns1:revisionNumber	"130" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-129> .
+<http://dbpedia.org-commit-131>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-131> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 131" ;
+	ns2:atTime	"2014-09-16T13:14:34" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-130> .
+<http://dbpedia.org-revision-131>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-131> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-131> ;
+	ns1:revisionNumber	"131" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-130> .
+<http://dbpedia.org-commit-132>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-132> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 132" ;
+	ns2:atTime	"2014-09-16T13:14:35" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-131> .
+<http://dbpedia.org-revision-132>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-132> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-132> ;
+	ns1:revisionNumber	"132" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-131> .
+<http://dbpedia.org-commit-133>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-133> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 133" ;
+	ns2:atTime	"2014-09-16T13:14:35" ,
+		"2014-09-16T13:00:00" ;
+	ns2:used	<http://dbpedia.org-revision-132> .
+<http://dbpedia.org-revision-133>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-133> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-133> ;
+	ns1:revisionNumber	"133" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-132> .
+<http://dbpedia.org-commit-134>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-134> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 134" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:35" ;
+	ns2:used	<http://dbpedia.org-revision-133> .
+<http://dbpedia.org-revision-134>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-134> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-134> ;
+	ns1:revisionNumber	"134" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-133> .
+<http://dbpedia.org-commit-135>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-135> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 135" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:35" ;
+	ns2:used	<http://dbpedia.org-revision-134> .
+<http://dbpedia.org-revision-135>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-135> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-135> ;
+	ns1:revisionNumber	"135" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-134> .
+<http://dbpedia.org-commit-136>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-136> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 136" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:35" ;
+	ns2:used	<http://dbpedia.org-revision-135> .
+<http://dbpedia.org-revision-136>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-136> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-136> ;
+	ns1:revisionNumber	"136" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-135> .
+<http://dbpedia.org-commit-137>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-137> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 137" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:35" ;
+	ns2:used	<http://dbpedia.org-revision-136> .
+<http://dbpedia.org-revision-137>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-137> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-137> ;
+	ns1:revisionNumber	"137" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-136> .
+<http://dbpedia.org-commit-138>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-138> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 138" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:35" ;
+	ns2:used	<http://dbpedia.org-revision-137> .
+<http://dbpedia.org-revision-138>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-138> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-138> ;
+	ns1:revisionNumber	"138" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-137> .
+<http://dbpedia.org-commit-139>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-139> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 139" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:35" ;
+	ns2:used	<http://dbpedia.org-revision-138> .
+<http://dbpedia.org-revision-139>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-139> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-139> ;
+	ns1:revisionNumber	"139" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-138> .
+<http://dbpedia.org-commit-140>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-140> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 140" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:35" ;
+	ns2:used	<http://dbpedia.org-revision-139> .
+<http://dbpedia.org-revision-140>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-140> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-140> ;
+	ns1:revisionNumber	"140" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-139> .
+<http://dbpedia.org-commit-141>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-141> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 141" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:36" ;
+	ns2:used	<http://dbpedia.org-revision-140> .
+<http://dbpedia.org-revision-141>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-141> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-141> ;
+	ns1:revisionNumber	"141" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-140> .
+<http://dbpedia.org-commit-142>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-142> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 142" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:36" ;
+	ns2:used	<http://dbpedia.org-revision-141> .
+<http://dbpedia.org-revision-142>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-142> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-142> ;
+	ns1:revisionNumber	"142" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-141> .
+<http://dbpedia.org-commit-143>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-143> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 143" ;
+	ns2:atTime	"2014-09-16T13:00:01" ,
+		"2014-09-16T13:14:36" ;
+	ns2:used	<http://dbpedia.org-revision-142> .
+<http://dbpedia.org-revision-143>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-143> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-143> ;
+	ns1:revisionNumber	"143" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-142> .
+<http://dbpedia.org-commit-144>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-144> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 144" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-143> .
+<http://dbpedia.org-revision-144>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-144> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-144> ;
+	ns1:revisionNumber	"144" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-143> .
+<http://dbpedia.org-commit-145>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-145> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 145" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-144> .
+<http://dbpedia.org-revision-145>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-145> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-145> ;
+	ns1:revisionNumber	"145" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-144> .
+<http://dbpedia.org-commit-146>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-146> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 146" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-145> .
+<http://dbpedia.org-revision-146>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-146> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-146> ;
+	ns1:revisionNumber	"146" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-145> .
+<http://dbpedia.org-commit-147>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-147> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 147" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-146> .
+<http://dbpedia.org-revision-147>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-147> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-147> ;
+	ns1:revisionNumber	"147" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-146> .
+<http://dbpedia.org-commit-148>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-148> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 148" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-147> .
+<http://dbpedia.org-revision-148>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-148> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-148> ;
+	ns1:revisionNumber	"148" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-147> .
+<http://dbpedia.org-commit-149>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-149> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 149" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-148> .
+<http://dbpedia.org-revision-149>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-149> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-149> ;
+	ns1:revisionNumber	"149" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-148> .
+<http://dbpedia.org-commit-150>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-150> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 150" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-149> .
+<http://dbpedia.org-revision-150>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-150> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-150> ;
+	ns1:revisionNumber	"150" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-149> .
+<http://dbpedia.org-commit-151>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-151> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 151" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-150> .
+<http://dbpedia.org-revision-151>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-151> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-151> ;
+	ns1:revisionNumber	"151" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-150> .
+<http://dbpedia.org-commit-152>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-152> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 152" ;
+	ns2:atTime	"2014-09-16T13:14:36" ,
+		"2014-09-16T13:00:02" ;
+	ns2:used	<http://dbpedia.org-revision-151> .
+<http://dbpedia.org-revision-152>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-152> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-152> ;
+	ns1:revisionNumber	"152" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-151> .
+<http://dbpedia.org-commit-153>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-153> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 153" ;
+	ns2:atTime	"2014-09-16T13:00:03" ,
+		"2014-09-16T13:14:36" ;
+	ns2:used	<http://dbpedia.org-revision-152> .
+<http://dbpedia.org-revision-153>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-153> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-153> ;
+	ns1:revisionNumber	"153" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-152> .
+<http://dbpedia.org-commit-4>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-4> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 4" ;
+	ns2:atTime	"2014-09-16T12:59:50" ,
+		"2014-09-16T13:14:18" ;
+	ns2:used	<http://dbpedia.org-revision-3> .
+<http://dbpedia.org-revision-4>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-4> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-4> ;
+	ns1:revisionNumber	"4" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-3> .
+<http://dbpedia.org-commit-154>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-154> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 154" ;
+	ns2:atTime	"2014-09-16T13:00:03" ,
+		"2014-09-16T13:14:37" ;
+	ns2:used	<http://dbpedia.org-revision-153> .
+<http://dbpedia.org-revision-154>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-154> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-154> ;
+	ns1:revisionNumber	"154" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-153> .
+<http://dbpedia.org-commit-155>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-155> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 155" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-154> .
+<http://dbpedia.org-revision-155>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-155> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-155> ;
+	ns1:revisionNumber	"155" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-154> .
+<http://dbpedia.org-commit-156>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-156> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 156" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-155> .
+<http://dbpedia.org-revision-156>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-156> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-156> ;
+	ns1:revisionNumber	"156" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-155> .
+<http://dbpedia.org-commit-157>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-157> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 157" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-156> .
+<http://dbpedia.org-revision-157>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-157> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-157> ;
+	ns1:revisionNumber	"157" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-156> .
+<http://dbpedia.org-commit-158>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-158> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 158" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-157> .
+<http://dbpedia.org-revision-158>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-158> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-158> ;
+	ns1:revisionNumber	"158" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-157> .
+<http://dbpedia.org-commit-159>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-159> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 159" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-158> .
+<http://dbpedia.org-revision-159>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-159> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-159> ;
+	ns1:revisionNumber	"159" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-158> .
+<http://dbpedia.org-commit-160>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-160> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 160" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-159> .
+<http://dbpedia.org-revision-160>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-160> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-160> ;
+	ns1:revisionNumber	"160" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-159> .
+<http://dbpedia.org-commit-161>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-161> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 161" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-160> .
+<http://dbpedia.org-revision-161>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-161> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-161> ;
+	ns1:revisionNumber	"161" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-160> .
+<http://dbpedia.org-commit-162>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-162> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 162" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-161> .
+<http://dbpedia.org-revision-162>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-162> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-162> ;
+	ns1:revisionNumber	"162" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-161> .
+<http://dbpedia.org-commit-163>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-163> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 163" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-162> .
+<http://dbpedia.org-revision-163>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-163> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-163> ;
+	ns1:revisionNumber	"163" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-162> .
+<http://dbpedia.org-commit-164>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-164> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 164" ;
+	ns2:atTime	"2014-09-16T13:14:37" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-163> .
+<http://dbpedia.org-revision-164>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-164> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-164> ;
+	ns1:revisionNumber	"164" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-163> .
+<http://dbpedia.org-commit-165>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-165> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 165" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:03" ;
+	ns2:used	<http://dbpedia.org-revision-164> .
+<http://dbpedia.org-revision-165>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-165> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-165> ;
+	ns1:revisionNumber	"165" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-164> .
+<http://dbpedia.org-commit-166>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-166> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 166" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:04" ;
+	ns2:used	<http://dbpedia.org-revision-165> .
+<http://dbpedia.org-revision-166>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-166> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-166> ;
+	ns1:revisionNumber	"166" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-165> .
+<http://dbpedia.org-commit-167>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-167> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 167" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:04" ;
+	ns2:used	<http://dbpedia.org-revision-166> .
+<http://dbpedia.org-revision-167>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-167> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-167> ;
+	ns1:revisionNumber	"167" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-166> .
+<http://dbpedia.org-commit-168>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-168> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 168" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:04" ;
+	ns2:used	<http://dbpedia.org-revision-167> .
+<http://dbpedia.org-revision-168>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-168> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-168> ;
+	ns1:revisionNumber	"168" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-167> .
+<http://dbpedia.org-commit-169>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-169> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 169" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:04" ;
+	ns2:used	<http://dbpedia.org-revision-168> .
+<http://dbpedia.org-revision-169>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-169> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-169> ;
+	ns1:revisionNumber	"169" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-168> .
+<http://dbpedia.org-commit-170>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-170> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 170" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:04" ;
+	ns2:used	<http://dbpedia.org-revision-169> .
+<http://dbpedia.org-revision-170>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-170> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-170> ;
+	ns1:revisionNumber	"170" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-169> .
+<http://dbpedia.org-commit-171>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-171> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 171" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:04" ;
+	ns2:used	<http://dbpedia.org-revision-170> .
+<http://dbpedia.org-revision-171>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-171> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-171> ;
+	ns1:revisionNumber	"171" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-170> .
+<http://dbpedia.org-commit-172>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-172> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 172" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:04" ;
+	ns2:used	<http://dbpedia.org-revision-171> .
+<http://dbpedia.org-revision-172>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-172> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-172> ;
+	ns1:revisionNumber	"172" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-171> .
+<http://dbpedia.org-commit-173>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-173> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 173" ;
+	ns2:atTime	"2014-09-16T13:14:38" ,
+		"2014-09-16T13:00:04" ;
+	ns2:used	<http://dbpedia.org-revision-172> .
+<http://dbpedia.org-revision-173>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-173> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-173> ;
+	ns1:revisionNumber	"173" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-172> .
+<http://dbpedia.org-commit-174>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-174> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 174" ;
+	ns2:atTime	"2014-09-16T13:00:04" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-173> .
+<http://dbpedia.org-revision-174>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-174> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-174> ;
+	ns1:revisionNumber	"174" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-173> .
+<http://dbpedia.org-commit-175>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-175> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 175" ;
+	ns2:atTime	"2014-09-16T13:00:04" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-174> .
+<http://dbpedia.org-revision-175>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-175> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-175> ;
+	ns1:revisionNumber	"175" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-174> .
+<http://dbpedia.org-commit-176>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-176> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 176" ;
+	ns2:atTime	"2014-09-16T13:00:04" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-175> .
+<http://dbpedia.org-revision-176>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-176> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-176> ;
+	ns1:revisionNumber	"176" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-175> .
+<http://dbpedia.org-commit-177>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-177> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 177" ;
+	ns2:atTime	"2014-09-16T13:00:04" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-176> .
+<http://dbpedia.org-revision-177>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-177> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-177> ;
+	ns1:revisionNumber	"177" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-176> .
+<http://dbpedia.org-commit-178>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-178> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 178" ;
+	ns2:atTime	"2014-09-16T13:00:04" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-177> .
+<http://dbpedia.org-revision-178>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-178> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-178> ;
+	ns1:revisionNumber	"178" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-177> .
+<http://dbpedia.org-commit-179>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-179> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 179" ;
+	ns2:atTime	"2014-09-16T13:00:04" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-178> .
+<http://dbpedia.org-revision-179>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-179> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-179> ;
+	ns1:revisionNumber	"179" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-178> .
+<http://dbpedia.org-commit-180>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-180> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 180" ;
+	ns2:atTime	"2014-09-16T13:00:04" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-179> .
+<http://dbpedia.org-revision-180>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-180> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-180> ;
+	ns1:revisionNumber	"180" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-179> .
+<http://dbpedia.org-commit-181>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-181> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 181" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-180> .
+<http://dbpedia.org-revision-181>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-181> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-181> ;
+	ns1:revisionNumber	"181" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-180> .
+<http://dbpedia.org-commit-182>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-182> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 182" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:39" ;
+	ns2:used	<http://dbpedia.org-revision-181> .
+<http://dbpedia.org-revision-182>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-182> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-182> ;
+	ns1:revisionNumber	"182" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-181> .
+<http://dbpedia.org-commit-183>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-183> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 183" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:40" ;
+	ns2:used	<http://dbpedia.org-revision-182> .
+<http://dbpedia.org-revision-183>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-183> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-183> ;
+	ns1:revisionNumber	"183" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-182> .
+<http://dbpedia.org-commit-184>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-184> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 184" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:40" ;
+	ns2:used	<http://dbpedia.org-revision-183> .
+<http://dbpedia.org-revision-184>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-184> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-184> ;
+	ns1:revisionNumber	"184" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-183> .
+<http://dbpedia.org-commit-185>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-185> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 185" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:40" ;
+	ns2:used	<http://dbpedia.org-revision-184> .
+<http://dbpedia.org-revision-185>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-185> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-185> ;
+	ns1:revisionNumber	"185" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-184> .
+<http://dbpedia.org-commit-186>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-186> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 186" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:40" ;
+	ns2:used	<http://dbpedia.org-revision-185> .
+<http://dbpedia.org-revision-186>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-186> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-186> ;
+	ns1:revisionNumber	"186" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-185> .
+<http://dbpedia.org-commit-187>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-187> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 187" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:40" ;
+	ns2:used	<http://dbpedia.org-revision-186> .
+<http://dbpedia.org-revision-187>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-187> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-187> ;
+	ns1:revisionNumber	"187" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-186> .
+<http://dbpedia.org-commit-188>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-188> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 188" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:40" ;
+	ns2:used	<http://dbpedia.org-revision-187> .
+<http://dbpedia.org-revision-188>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-188> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-188> ;
+	ns1:revisionNumber	"188" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-187> .
+<http://dbpedia.org-commit-189>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-189> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 189" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:40" ;
+	ns2:used	<http://dbpedia.org-revision-188> .
+<http://dbpedia.org-revision-189>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-189> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-189> ;
+	ns1:revisionNumber	"189" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-188> .
+<http://dbpedia.org-commit-190>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-190> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 190" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:40" ;
+	ns2:used	<http://dbpedia.org-revision-189> .
+<http://dbpedia.org-revision-190>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-190> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-190> ;
+	ns1:revisionNumber	"190" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-189> .
+<http://dbpedia.org-commit-191>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-191> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 191" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-190> .
+<http://dbpedia.org-revision-191>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-191> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-191> ;
+	ns1:revisionNumber	"191" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-190> .
+<http://dbpedia.org-commit-192>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-192> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 192" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-191> .
+<http://dbpedia.org-revision-192>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-192> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-192> ;
+	ns1:revisionNumber	"192" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-191> .
+<http://dbpedia.org-commit-193>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-193> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 193" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-192> .
+<http://dbpedia.org-revision-193>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-193> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-193> ;
+	ns1:revisionNumber	"193" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-192> .
+<http://dbpedia.org-commit-194>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-194> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 194" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-193> .
+<http://dbpedia.org-revision-194>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-194> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-194> ;
+	ns1:revisionNumber	"194" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-193> .
+<http://dbpedia.org-commit-195>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-195> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 195" ;
+	ns2:atTime	"2014-09-16T13:00:05" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-194> .
+<http://dbpedia.org-revision-195>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-195> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-195> ;
+	ns1:revisionNumber	"195" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-194> .
+<http://dbpedia.org-commit-196>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-196> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 196" ;
+	ns2:atTime	"2014-09-16T13:00:06" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-195> .
+<http://dbpedia.org-revision-196>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-196> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-196> ;
+	ns1:revisionNumber	"196" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-195> .
+<http://dbpedia.org-commit-197>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-197> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 197" ;
+	ns2:atTime	"2014-09-16T13:00:06" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-196> .
+<http://dbpedia.org-revision-197>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-197> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-197> ;
+	ns1:revisionNumber	"197" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-196> .
+<http://dbpedia.org-commit-198>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-198> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 198" ;
+	ns2:atTime	"2014-09-16T13:00:06" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-197> .
+<http://dbpedia.org-revision-198>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-198> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-198> ;
+	ns1:revisionNumber	"198" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-197> .
+<http://dbpedia.org-commit-199>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-199> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 199" ;
+	ns2:atTime	"2014-09-16T13:00:06" ,
+		"2014-09-16T13:14:41" ;
+	ns2:used	<http://dbpedia.org-revision-198> .
+<http://dbpedia.org-revision-199>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-199> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-199> ;
+	ns1:revisionNumber	"199" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-198> .
+<http://dbpedia.org-commit-200>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-200> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 200" ;
+	ns2:atTime	"2014-09-16T13:14:41" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-199> .
+<http://dbpedia.org-revision-200>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-200> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-200> ;
+	ns1:revisionNumber	"200" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-199> .
+<http://dbpedia.org-commit-201>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-201> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 201" ;
+	ns2:atTime	"2014-09-16T13:14:41" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-200> .
+<http://dbpedia.org-revision-201>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-201> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-201> ;
+	ns1:revisionNumber	"201" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-200> .
+<http://dbpedia.org-commit-202>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-202> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 202" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-201> .
+<http://dbpedia.org-revision-202>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-202> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-202> ;
+	ns1:revisionNumber	"202" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-201> .
+<http://dbpedia.org-commit-203>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-203> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 203" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-202> .
+<http://dbpedia.org-revision-203>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-203> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-203> ;
+	ns1:revisionNumber	"203" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-202> .
+<http://dbpedia.org-commit-204>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-204> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 204" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-203> .
+<http://dbpedia.org-revision-204>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-204> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-204> ;
+	ns1:revisionNumber	"204" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-203> .
+<http://dbpedia.org-commit-205>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-205> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 205" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-204> .
+<http://dbpedia.org-revision-205>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-205> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-205> ;
+	ns1:revisionNumber	"205" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-204> .
+<http://dbpedia.org-commit-206>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-206> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 206" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-205> .
+<http://dbpedia.org-revision-206>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-206> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-206> ;
+	ns1:revisionNumber	"206" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-205> .
+<http://dbpedia.org-commit-207>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-207> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 207" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-206> .
+<http://dbpedia.org-revision-207>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-207> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-207> ;
+	ns1:revisionNumber	"207" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-206> .
+<http://dbpedia.org-commit-208>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-208> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 208" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:06" ;
+	ns2:used	<http://dbpedia.org-revision-207> .
+<http://dbpedia.org-revision-208>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-208> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-208> ;
+	ns1:revisionNumber	"208" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-207> .
+<http://dbpedia.org-commit-209>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-209> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 209" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-208> .
+<http://dbpedia.org-revision-209>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-209> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-209> ;
+	ns1:revisionNumber	"209" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-208> .
+<http://dbpedia.org-commit-210>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-210> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 210" ;
+	ns2:atTime	"2014-09-16T13:14:42" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-209> .
+<http://dbpedia.org-revision-210>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-210> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-210> ;
+	ns1:revisionNumber	"210" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-209> .
+<http://dbpedia.org-commit-211>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-211> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 211" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-210> .
+<http://dbpedia.org-revision-211>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-211> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-211> ;
+	ns1:revisionNumber	"211" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-210> .
+<http://dbpedia.org-commit-212>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-212> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 212" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-211> .
+<http://dbpedia.org-revision-212>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-212> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-212> ;
+	ns1:revisionNumber	"212" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-211> .
+<http://dbpedia.org-commit-213>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-213> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 213" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-212> .
+<http://dbpedia.org-revision-213>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-213> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-213> ;
+	ns1:revisionNumber	"213" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-212> .
+<http://dbpedia.org-commit-214>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-214> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 214" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-213> .
+<http://dbpedia.org-revision-214>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-214> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-214> ;
+	ns1:revisionNumber	"214" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-213> .
+<http://dbpedia.org-commit-215>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-215> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 215" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-214> .
+<http://dbpedia.org-revision-215>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-215> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-215> ;
+	ns1:revisionNumber	"215" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-214> .
+<http://dbpedia.org-commit-216>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-216> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 216" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-215> .
+<http://dbpedia.org-revision-216>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-216> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-216> ;
+	ns1:revisionNumber	"216" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-215> .
+<http://dbpedia.org-commit-217>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-217> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 217" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-216> .
+<http://dbpedia.org-revision-217>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-217> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-217> ;
+	ns1:revisionNumber	"217" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-216> .
+<http://dbpedia.org-commit-218>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-218> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 218" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-217> .
+<http://dbpedia.org-revision-218>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-218> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-218> ;
+	ns1:revisionNumber	"218" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-217> .
+<http://dbpedia.org-commit-219>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-219> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 219" ;
+	ns2:atTime	"2014-09-16T13:14:43" ,
+		"2014-09-16T13:00:07" ;
+	ns2:used	<http://dbpedia.org-revision-218> .
+<http://dbpedia.org-revision-219>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-219> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-219> ;
+	ns1:revisionNumber	"219" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-218> .
+<http://dbpedia.org-commit-220>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-220> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 220" ;
+	ns2:atTime	"2014-09-16T13:00:07" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-219> .
+<http://dbpedia.org-revision-220>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-220> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-220> ;
+	ns1:revisionNumber	"220" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-219> .
+<http://dbpedia.org-commit-221>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-221> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 221" ;
+	ns2:atTime	"2014-09-16T13:00:07" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-220> .
+<http://dbpedia.org-revision-221>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-221> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-221> ;
+	ns1:revisionNumber	"221" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-220> .
+<http://dbpedia.org-commit-222>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-222> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 222" ;
+	ns2:atTime	"2014-09-16T13:00:07" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-221> .
+<http://dbpedia.org-revision-222>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-222> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-222> ;
+	ns1:revisionNumber	"222" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-221> .
+<http://dbpedia.org-commit-223>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-223> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 223" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-222> .
+<http://dbpedia.org-revision-223>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-223> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-223> ;
+	ns1:revisionNumber	"223" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-222> .
+<http://dbpedia.org-commit-224>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-224> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 224" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-223> .
+<http://dbpedia.org-revision-224>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-224> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-224> ;
+	ns1:revisionNumber	"224" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-223> .
+<http://dbpedia.org-commit-225>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-225> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 225" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-224> .
+<http://dbpedia.org-revision-225>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-225> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-225> ;
+	ns1:revisionNumber	"225" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-224> .
+<http://dbpedia.org-commit-226>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-226> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 226" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-225> .
+<http://dbpedia.org-revision-226>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-226> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-226> ;
+	ns1:revisionNumber	"226" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-225> .
+<http://dbpedia.org-commit-227>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-227> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 227" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-226> .
+<http://dbpedia.org-revision-227>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-227> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-227> ;
+	ns1:revisionNumber	"227" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-226> .
+<http://dbpedia.org-commit-228>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-228> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 228" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:44" ;
+	ns2:used	<http://dbpedia.org-revision-227> .
+<http://dbpedia.org-revision-228>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-228> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-228> ;
+	ns1:revisionNumber	"228" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-227> .
+<http://dbpedia.org-commit-229>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-229> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 229" ;
+	ns2:atTime	"2014-09-16T13:14:45" ,
+		"2014-09-16T13:00:08" ;
+	ns2:used	<http://dbpedia.org-revision-228> .
+<http://dbpedia.org-revision-229>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-229> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-229> ;
+	ns1:revisionNumber	"229" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-228> .
+<http://dbpedia.org-commit-230>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-230> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 230" ;
+	ns2:atTime	"2014-09-16T13:14:45" ,
+		"2014-09-16T13:00:08" ;
+	ns2:used	<http://dbpedia.org-revision-229> .
+<http://dbpedia.org-revision-230>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-230> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-230> ;
+	ns1:revisionNumber	"230" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-229> .
+<http://dbpedia.org-commit-231>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-231> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 231" ;
+	ns2:atTime	"2014-09-16T13:14:45" ,
+		"2014-09-16T13:00:08" ;
+	ns2:used	<http://dbpedia.org-revision-230> .
+<http://dbpedia.org-revision-231>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-231> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-231> ;
+	ns1:revisionNumber	"231" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-230> .
+<http://dbpedia.org-commit-232>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-232> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 232" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:45" ;
+	ns2:used	<http://dbpedia.org-revision-231> .
+<http://dbpedia.org-revision-232>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-232> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-232> ;
+	ns1:revisionNumber	"232" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-231> .
+<http://dbpedia.org-commit-233>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-233> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 233" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:45" ;
+	ns2:used	<http://dbpedia.org-revision-232> .
+<http://dbpedia.org-revision-233>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-233> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-233> ;
+	ns1:revisionNumber	"233" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-232> .
+<http://dbpedia.org-commit-234>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-234> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 234" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:45" ;
+	ns2:used	<http://dbpedia.org-revision-233> .
+<http://dbpedia.org-revision-234>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-234> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-234> ;
+	ns1:revisionNumber	"234" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-233> .
+<http://dbpedia.org-commit-235>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-235> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 235" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:45" ;
+	ns2:used	<http://dbpedia.org-revision-234> .
+<http://dbpedia.org-revision-235>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-235> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-235> ;
+	ns1:revisionNumber	"235" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-234> .
+<http://dbpedia.org-commit-236>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-236> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 236" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:45" ;
+	ns2:used	<http://dbpedia.org-revision-235> .
+<http://dbpedia.org-revision-236>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-236> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-236> ;
+	ns1:revisionNumber	"236" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-235> .
+<http://dbpedia.org-commit-237>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-237> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 237" ;
+	ns2:atTime	"2014-09-16T13:00:08" ,
+		"2014-09-16T13:14:45" ;
+	ns2:used	<http://dbpedia.org-revision-236> .
+<http://dbpedia.org-revision-237>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-237> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-237> ;
+	ns1:revisionNumber	"237" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-236> .
+<http://dbpedia.org-commit-238>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-238> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 238" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:45" ;
+	ns2:used	<http://dbpedia.org-revision-237> .
+<http://dbpedia.org-revision-238>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-238> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-238> ;
+	ns1:revisionNumber	"238" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-237> .
+<http://dbpedia.org-commit-239>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-239> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 239" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:46" ;
+	ns2:used	<http://dbpedia.org-revision-238> .
+<http://dbpedia.org-revision-239>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-239> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-239> ;
+	ns1:revisionNumber	"239" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-238> .
+<http://dbpedia.org-commit-240>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-240> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 240" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:46" ;
+	ns2:used	<http://dbpedia.org-revision-239> .
+<http://dbpedia.org-revision-240>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-240> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-240> ;
+	ns1:revisionNumber	"240" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-239> .
+<http://dbpedia.org-commit-241>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-241> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 241" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:46" ;
+	ns2:used	<http://dbpedia.org-revision-240> .
+<http://dbpedia.org-revision-241>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-241> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-241> ;
+	ns1:revisionNumber	"241" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-240> .
+<http://dbpedia.org-commit-242>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-242> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 242" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:46" ;
+	ns2:used	<http://dbpedia.org-revision-241> .
+<http://dbpedia.org-revision-242>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-242> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-242> ;
+	ns1:revisionNumber	"242" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-241> .
+<http://dbpedia.org-commit-243>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-243> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 243" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:46" ;
+	ns2:used	<http://dbpedia.org-revision-242> .
+<http://dbpedia.org-revision-243>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-243> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-243> ;
+	ns1:revisionNumber	"243" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-242> .
+<http://dbpedia.org-commit-244>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-244> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 244" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:46" ;
+	ns2:used	<http://dbpedia.org-revision-243> .
+<http://dbpedia.org-revision-244>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-244> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-244> ;
+	ns1:revisionNumber	"244" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-243> .
+<http://dbpedia.org-commit-245>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-245> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 245" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:46" ;
+	ns2:used	<http://dbpedia.org-revision-244> .
+<http://dbpedia.org-revision-245>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-245> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-245> ;
+	ns1:revisionNumber	"245" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-244> .
+<http://dbpedia.org-commit-246>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-246> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 246" ;
+	ns2:atTime	"2014-09-16T13:00:09" ,
+		"2014-09-16T13:14:46" ;
+	ns2:used	<http://dbpedia.org-revision-245> .
+<http://dbpedia.org-revision-246>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-246> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-246> ;
+	ns1:revisionNumber	"246" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-245> .
+<http://dbpedia.org-commit-247>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-247> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 247" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:09" ;
+	ns2:used	<http://dbpedia.org-revision-246> .
+<http://dbpedia.org-revision-247>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-247> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-247> ;
+	ns1:revisionNumber	"247" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-246> .
+<http://dbpedia.org-commit-248>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-248> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 248" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:09" ;
+	ns2:used	<http://dbpedia.org-revision-247> .
+<http://dbpedia.org-revision-248>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-248> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-248> ;
+	ns1:revisionNumber	"248" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-247> .
+<http://dbpedia.org-commit-249>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-249> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 249" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:09" ;
+	ns2:used	<http://dbpedia.org-revision-248> .
+<http://dbpedia.org-revision-249>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-249> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-249> ;
+	ns1:revisionNumber	"249" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-248> .
+<http://dbpedia.org-commit-250>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-250> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 250" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:09" ;
+	ns2:used	<http://dbpedia.org-revision-249> .
+<http://dbpedia.org-revision-250>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-250> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-250> ;
+	ns1:revisionNumber	"250" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-249> .
+<http://dbpedia.org-commit-251>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-251> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 251" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:09" ;
+	ns2:used	<http://dbpedia.org-revision-250> .
+<http://dbpedia.org-revision-251>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-251> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-251> ;
+	ns1:revisionNumber	"251" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-250> .
+<http://dbpedia.org-commit-252>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-252> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 252" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:09" ;
+	ns2:used	<http://dbpedia.org-revision-251> .
+<http://dbpedia.org-revision-252>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-252> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-252> ;
+	ns1:revisionNumber	"252" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-251> .
+<http://dbpedia.org-commit-253>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-253> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 253" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:10" ;
+	ns2:used	<http://dbpedia.org-revision-252> .
+<http://dbpedia.org-revision-253>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-253> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-253> ;
+	ns1:revisionNumber	"253" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-252> .
+<http://dbpedia.org-commit-254>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-254> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 254" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:10" ;
+	ns2:used	<http://dbpedia.org-revision-253> .
+<http://dbpedia.org-revision-254>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-254> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-254> ;
+	ns1:revisionNumber	"254" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-253> .
+<http://dbpedia.org-commit-255>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-255> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 255" ;
+	ns2:atTime	"2014-09-16T13:14:47" ,
+		"2014-09-16T13:00:10" ;
+	ns2:used	<http://dbpedia.org-revision-254> .
+<http://dbpedia.org-revision-255>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-255> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-255> ;
+	ns1:revisionNumber	"255" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-254> .
+<http://dbpedia.org-commit-256>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-256> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 256" ;
+	ns2:atTime	"2014-09-16T13:00:10" ,
+		"2014-09-16T13:14:48" ;
+	ns2:used	<http://dbpedia.org-revision-255> .
+<http://dbpedia.org-revision-256>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-256> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-256> ;
+	ns1:revisionNumber	"256" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-255> .
+<http://dbpedia.org-commit-257>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-257> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 257" ;
+	ns2:atTime	"2014-09-16T13:00:10" ,
+		"2014-09-16T13:14:48" ;
+	ns2:used	<http://dbpedia.org-revision-256> .
+<http://dbpedia.org-revision-257>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-257> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-257> ;
+	ns1:revisionNumber	"257" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-256> .
+<http://dbpedia.org-commit-258>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-258> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 258" ;
+	ns2:atTime	"2014-09-16T13:00:10" ,
+		"2014-09-16T13:14:48" ;
+	ns2:used	<http://dbpedia.org-revision-257> .
+<http://dbpedia.org-revision-258>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-258> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-258> ;
+	ns1:revisionNumber	"258" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-257> .
+<http://dbpedia.org-commit-259>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-259> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 259" ;
+	ns2:atTime	"2014-09-16T13:00:10" ,
+		"2014-09-16T13:14:48" ;
+	ns2:used	<http://dbpedia.org-revision-258> .
+<http://dbpedia.org-revision-259>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-259> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-259> ;
+	ns1:revisionNumber	"259" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-258> .
+<http://dbpedia.org-commit-260>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-260> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 260" ;
+	ns2:atTime	"2014-09-16T13:00:10" ,
+		"2014-09-16T13:14:48" ;
+	ns2:used	<http://dbpedia.org-revision-259> .
+<http://dbpedia.org-revision-260>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-260> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-260> ;
+	ns1:revisionNumber	"260" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-259> .
+<http://dbpedia.org-commit-261>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-261> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 261" ;
+	ns2:atTime	"2014-09-16T13:00:10" ,
+		"2014-09-16T13:14:48" ;
+	ns2:used	<http://dbpedia.org-revision-260> .
+<http://dbpedia.org-revision-261>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-261> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-261> ;
+	ns1:revisionNumber	"261" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-260> .
+<http://dbpedia.org-commit-262>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-262> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 262" ;
+	ns2:atTime	"2014-09-16T13:00:10" ,
+		"2014-09-16T13:14:48" ;
+	ns2:used	<http://dbpedia.org-revision-261> .
+<http://dbpedia.org-revision-262>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-262> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-262> ;
+	ns1:revisionNumber	"262" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-261> .
+<http://dbpedia.org-commit-263>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-263> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 263" ;
+	ns2:atTime	"2014-09-16T13:00:10" ,
+		"2014-09-16T13:14:48" ;
+	ns2:used	<http://dbpedia.org-revision-262> .
+<http://dbpedia.org-revision-263>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-263> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-263> ;
+	ns1:revisionNumber	"263" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-262> .
+<http://dbpedia.org-commit-264>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-264> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 264" ;
+	ns2:atTime	"2014-09-16T13:14:49" ,
+		"2014-09-16T13:00:10" ;
+	ns2:used	<http://dbpedia.org-revision-263> .
+<http://dbpedia.org-revision-264>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-264> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-264> ;
+	ns1:revisionNumber	"264" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-263> .
+<http://dbpedia.org-commit-265>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-265> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 265" ;
+	ns2:atTime	"2014-09-16T13:14:49" ,
+		"2014-09-16T13:00:10" ;
+	ns2:used	<http://dbpedia.org-revision-264> .
+<http://dbpedia.org-revision-265>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-265> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-265> ;
+	ns1:revisionNumber	"265" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-264> .
+<http://dbpedia.org-commit-266>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-266> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 266" ;
+	ns2:atTime	"2014-09-16T13:14:49" ,
+		"2014-09-16T13:00:10" ;
+	ns2:used	<http://dbpedia.org-revision-265> .
+<http://dbpedia.org-revision-266>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-266> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-266> ;
+	ns1:revisionNumber	"266" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-265> .
+<http://dbpedia.org-commit-267>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-267> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 267" ;
+	ns2:atTime	"2014-09-16T13:14:49" ,
+		"2014-09-16T13:00:10" ;
+	ns2:used	<http://dbpedia.org-revision-266> .
+<http://dbpedia.org-revision-267>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-267> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-267> ;
+	ns1:revisionNumber	"267" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-266> .
+<http://dbpedia.org-commit-268>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-268> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 268" ;
+	ns2:atTime	"2014-09-16T13:14:49" ,
+		"2014-09-16T13:00:10" ;
+	ns2:used	<http://dbpedia.org-revision-267> .
+<http://dbpedia.org-revision-268>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-268> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-268> ;
+	ns1:revisionNumber	"268" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-267> .
+<http://dbpedia.org-commit-269>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-269> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 269" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:49" ;
+	ns2:used	<http://dbpedia.org-revision-268> .
+<http://dbpedia.org-revision-269>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-269> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-269> ;
+	ns1:revisionNumber	"269" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-268> .
+<http://dbpedia.org-commit-270>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-270> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 270" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:49" ;
+	ns2:used	<http://dbpedia.org-revision-269> .
+<http://dbpedia.org-revision-270>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-270> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-270> ;
+	ns1:revisionNumber	"270" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-269> .
+<http://dbpedia.org-commit-271>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-271> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 271" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:49" ;
+	ns2:used	<http://dbpedia.org-revision-270> .
+<http://dbpedia.org-revision-271>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-271> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-271> ;
+	ns1:revisionNumber	"271" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-270> .
+<http://dbpedia.org-commit-272>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-272> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 272" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:49" ;
+	ns2:used	<http://dbpedia.org-revision-271> .
+<http://dbpedia.org-revision-272>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-272> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-272> ;
+	ns1:revisionNumber	"272" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-271> .
+<http://dbpedia.org-commit-273>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-273> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 273" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:50" ;
+	ns2:used	<http://dbpedia.org-revision-272> .
+<http://dbpedia.org-revision-273>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-273> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-273> ;
+	ns1:revisionNumber	"273" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-272> .
+<http://dbpedia.org-commit-274>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-274> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 274" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:50" ;
+	ns2:used	<http://dbpedia.org-revision-273> .
+<http://dbpedia.org-revision-274>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-274> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-274> ;
+	ns1:revisionNumber	"274" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-273> .
+<http://dbpedia.org-commit-275>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-275> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 275" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:50" ;
+	ns2:used	<http://dbpedia.org-revision-274> .
+<http://dbpedia.org-revision-275>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-275> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-275> ;
+	ns1:revisionNumber	"275" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-274> .
+<http://dbpedia.org-commit-276>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-276> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 276" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:50" ;
+	ns2:used	<http://dbpedia.org-revision-275> .
+<http://dbpedia.org-revision-276>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-276> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-276> ;
+	ns1:revisionNumber	"276" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-275> .
+<http://dbpedia.org-commit-277>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-277> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 277" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:50" ;
+	ns2:used	<http://dbpedia.org-revision-276> .
+<http://dbpedia.org-revision-277>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-277> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-277> ;
+	ns1:revisionNumber	"277" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-276> .
+<http://dbpedia.org-commit-2>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-2> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 2" ;
+	ns2:atTime	"2014-09-16T12:59:50" ,
+		"2014-09-16T13:14:18" ;
+	ns2:used	<http://dbpedia.org-revision-1> .
+<http://dbpedia.org-revision-2>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-2> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-2> ;
+	ns1:revisionNumber	"2" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-1> .
+<http://dbpedia.org-commit-3>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-3> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 3" ;
+	ns2:atTime	"2014-09-16T12:59:50" ,
+		"2014-09-16T13:14:18" ;
+	ns2:used	<http://dbpedia.org-revision-2> .
+<http://dbpedia.org-revision-3>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-3> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-3> ;
+	ns1:revisionNumber	"3" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-2> .
+<http://dbpedia.org-commit-278>	rdf:type	ns1:Commit ;
+	ns2:generated	<http://dbpedia.org-revision-278> ;
+	ns2:wasAssociatedWith	ns3:dbpedia-test ;
+	ns4:title	"create revision 278" ;
+	ns2:atTime	"2014-09-16T13:00:11" ,
+		"2014-09-16T13:14:50" ;
+	ns2:used	<http://dbpedia.org-revision-277> .
+<http://dbpedia.org-revision-278>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-278> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-278> ;
+	ns1:revisionNumber	"278" ;
+	ns2:wasDerivedFrom	<http://dbpedia.org-revision-277> .
+<http://dbpedia.org-revision-0>	rdf:type	ns1:Revision ;
+	ns1:revisionOf	<http://dbpedia.org> ;
+	ns1:deltaAdded	<http://dbpedia.org-delta-added-0> ;
+	ns1:deltaRemoved	<http://dbpedia.org-delta-removed-0> ;
+	ns1:revisionNumber	"0" .
+<http://dbpedia.org-master>	rdf:type	ns1:Reference ,
+		ns1:Branch ,
+		ns1:Master .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+<http://dbpedia.org-master>	rdfs:label	"master" ;
+	ns1:references	<http://dbpedia.org-revision-278> ;
+	ns1:fullGraph	<http://dbpedia.org> .
