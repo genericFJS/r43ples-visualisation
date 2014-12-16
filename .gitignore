@@ -14,7 +14,10 @@ $RECYCLE.BIN/
 *.lnk
 
 #LaTeX
-/doc/*/*.aux
-/doc/*/*.log
-/doc/*/*.bak
-/doc/*/*.toc
+/Dokumentation/*.aux
+/Dokumentation/*.log
+/Dokumentation/*.bak
+/Dokumentation/*.toc
+/Dokumentation/*.bbl
+/Dokumentation/*.blg
+/Dokumentation/*.dvi
