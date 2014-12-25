@@ -1,0 +1,3 @@
+[submodule "r43ples"]
+	path = r43ples
+	url = git@github.com:Flugtiger/r43ples.git
