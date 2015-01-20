@@ -16,56 +16,27 @@
     <data key="d0"/>
     <node id="n0">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.start2">
-          <y:Geometry height="40.0" width="80.0" x="298.5" y="57.0"/>
+        <y:GenericNode configuration="com.yworks.flowchart.loopLimit">
+          <y:Geometry height="40.0" width="336.25" x="170.375" y="292.4590350515464"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="33.314453125" x="23.3427734375" y="11.015625">Start<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="158.53515625" x="88.857421875" y="11.015625">while ( c := nextCommit )<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
     <node id="n1">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="52.72951752577319" width="336.25" x="170.375" y="197.0"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="163.7734375" x="86.23828125" y="17.380383762886595">get next commit out of list<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n2">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.loopLimit">
-          <y:Geometry height="40.0" width="336.25" x="170.375" y="127.0"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="172.234375" x="82.0078125" y="11.015625">do for all commits in the list<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n3">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="52.72951752577319" width="336.25" x="170.375" y="362.4590350515464"/>
+          <y:Geometry height="52.72951752577319" width="336.25" x="170.375" y="445.18855257731957"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="112.31640625" x="111.966796875" y="10.396008762886595">determine color
@@ -76,10 +47,13 @@ of current commit<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n4">
+    <node id="n2">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.72951752577319" width="336.25" x="170.375" y="1154.8361402061855"/>
@@ -92,114 +66,114 @@ of current commit<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.internalStorage">
+          <y:Geometry height="124.0" width="197.0" x="590.5554639175257" y="562.2828288659794"/>
+          <y:Fill color="#E8EEF7" color2="#00CCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" modelName="custom" textColor="#000000" visible="true" width="142.287109375" x="27.3564453125" y="25.078125">List(terminal_commits)
+
+Map(commit, column)
+
+Map(commit, color)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
+          <y:Geometry height="52.72951752577319" width="336.25" x="170.375" y="362.4590350515464"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="263.3828125" x="36.43359375" y="17.380383762886595">currentColumn := getColumnForCommit(c)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
     <node id="n5">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.internalStorage">
-          <y:Geometry height="124.0" width="197.0" x="635.0" y="409.55331134020616"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+        <y:GenericNode configuration="com.yworks.flowchart.loopLimit">
+          <y:Geometry height="40.0" width="269.0" x="204.0" y="527.9180701030928"/>
+          <y:Fill color="#FFCC99" color2="#FF99CC" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="custom" textColor="#000000" visible="true" width="148.48046875" x="24.259765625" y="32.0625">List(terminal_commits)
-Map(commit, column)
-Map(commit, color)
-List(Node(line, column))<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="215.46484375" x="26.767578125" y="11.015625">while ( suc := nextSuccessorOf(c) )<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
     <node id="n6">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
-          <y:Geometry height="52.72951752577319" width="336.25" x="170.375" y="279.7295175257732"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="52.72951752577319" width="269.0" x="204.0" y="597.9180701030928"/>
+          <y:Fill color="#FFCC99" color2="#FF99CC" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="117.25" x="109.5" y="10.396008762886595">find column
-for current commit<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="234.56640625" x="17.216796875" y="17.380383762886595">calculate line and column of suc and c<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
     <node id="n7">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.loopLimit">
-          <y:Geometry height="40.0" width="269.0" x="204.0" y="445.18855257731957"/>
-          <y:Fill color="#FFCC99" color2="#FF99CC" transparent="false"/>
+          <y:Geometry height="56.0" width="233.0" x="222.0" y="763.3771051546391"/>
+          <y:Fill color="#FFFF99" color2="#FFFF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="126.390625" x="71.3046875" y="4.03125">do for all successors
-of current commit<y:LabelModel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="129.419921875" x="51.7900390625" y="5.046875">i := line_of_c;
+i &gt; (line_of_suc + 1);
+i := i - 1;<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
     <node id="n8">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="52.72951752577319" width="269.0" x="204.0" y="597.9180701030928"/>
-          <y:Fill color="#FFCC99" color2="#FF99CC" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="211.626953125" x="28.6865234375" y="10.396008762886595">calculate position (line, column) of
-current commit and of successor<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n9">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="52.72951752577319" width="269.0" x="204.0" y="515.1885525773196"/>
-          <y:Fill color="#FFCC99" color2="#FF99CC" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="177.630859375" x="45.6845703125" y="17.380383762886595">get next successor out of list<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n10">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.loopLimit">
-          <y:Geometry height="56.0" width="233.0" x="222.0" y="763.3771051546391"/>
-          <y:Fill color="#FFFF99" color2="#FFFF00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="173.447265625" x="29.7763671875" y="5.046875">i := line_of_current_commit;
-i &gt; (line_of_successor + 1);
-i = i - 1;<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n11">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.loopLimitEnd">
           <y:Geometry height="40.0" width="233.0" x="222.0" y="932.1066226804123"/>
@@ -213,10 +187,13 @@ i = i - 1;<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n12">
+    <node id="n9">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
           <y:Geometry height="52.72951752577319" width="233.0" x="222.0" y="849.3771051546391"/>
@@ -230,10 +207,13 @@ path segment<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n13">
+    <node id="n10">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
           <y:Geometry height="52.72951752577319" width="269.0" x="204.0" y="1002.1066226804123"/>
@@ -247,10 +227,13 @@ path segment<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n14">
+    <node id="n11">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.loopLimitEnd">
           <y:Geometry height="40.0" width="269.0" x="204.0" y="1084.8361402061855"/>
@@ -264,10 +247,13 @@ path segment<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n15">
+    <node id="n12">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.72951752577319" width="336.25" x="170.375" y="1237.5656577319587"/>
@@ -280,10 +266,13 @@ path segment<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n16">
+    <node id="n13">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.loopLimitEnd">
           <y:Geometry height="40.0" width="336.25" x="170.375" y="1320.295175257732"/>
@@ -297,26 +286,32 @@ path segment<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n17">
+    <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.loopLimit">
           <y:Geometry height="40.0" width="336.25" x="170.375" y="1390.295175257732"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="172.234375" x="82.0078125" y="11.015625">do for all commits in the list<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="158.53515625" x="88.857421875" y="11.015625">while ( c := nextCommit )<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n18">
+    <node id="n15">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.loopLimitEnd">
           <y:Geometry height="40.0" width="336.25" x="170.375" y="1629.024692783505"/>
@@ -330,26 +325,32 @@ path segment<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n19">
+    <node id="n16">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.72951752577319" width="336.25" x="170.375" y="1460.295175257732"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="187.181640625" x="74.5341796875" y="17.380383762886595">get position of current commit<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="153.3671875" x="91.44140625" y="17.380383762886595">get lane and column of c<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n20">
+    <node id="n17">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.predefinedProcess">
           <y:Geometry height="56.0" width="336.25" x="170.375" y="1543.024692783505"/>
@@ -362,10 +363,13 @@ path segment<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n21">
+    <node id="n18">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="52.72951752577319" width="269.0" x="204.0" y="680.647587628866"/>
@@ -379,90 +383,101 @@ connection<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <edge id="e0" source="n5" target="n6">
+    <node id="n19">
+      <data key="d5"/>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.start1">
+          <y:Geometry height="40.0" width="171.36719175257736" x="252.81640412371132" y="222.45903505154638"/>
+          <y:Fill color="#003300" color2="#003300" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#FFFFFF" visible="true" width="117.666015625" x="26.850588063788678" y="11.015625">drawCommitGraph<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d5"/>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="40.0" width="80.0" x="298.5" y="1699.024692783505"/>
+          <y:Fill color="#800000" color2="#800000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#FFFFFF" visible="true" width="26.8046875" x="26.59765625" y="11.015625">End<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <edge id="e0" source="n3" target="n4">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="47.75" sy="-62.0" tx="168.125" ty="0.0">
-            <y:Point x="781.25" y="328.25"/>
-            <y:Point x="759.0942762886598" y="306.0942762886598"/>
+            <y:Point x="736.8054639175257" y="410.9795175257732"/>
+            <y:Point x="714.6497402061855" y="388.823793814433"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
           <y:Arrows source="none" target="standard"/>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e1" source="n5" target="n3">
+    <edge id="e1" source="n3" target="n1">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="-47.75" sy="-62.0" tx="168.125" ty="-6.3176206185567025">
-            <y:Point x="685.75" y="389.75"/>
-            <y:Point x="678.5061731958763" y="382.5061731958763"/>
+            <y:Point x="641.3054639175257" y="472.4795175257732"/>
+            <y:Point x="634.061637113402" y="465.23569072164946"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
           <y:Arrows source="none" target="standard"/>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e2" source="n4" target="n5">
+    <edge id="e2" source="n2" target="n3">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="168.125" sy="0.0" tx="23.875" ty="62.0">
-            <y:Point x="734.7991010309279" y="1181.200898969072"/>
-            <y:Point x="757.375" y="1158.625"/>
+            <y:Point x="690.3545649484536" y="1181.200898969072"/>
+            <y:Point x="712.9304639175257" y="1158.625"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
           <y:Arrows source="none" target="standard"/>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e3" source="n5" target="n8">
-      <data key="d10">
-        <y:GenericEdge configuration="com.yworks.edge.framed">
-          <y:Path sx="-71.625" sy="62.0" tx="134.5" ty="0.0">
-            <y:Point x="661.875" y="602.125"/>
-            <y:Point x="639.7171711340206" y="624.2828288659794"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="3.0"/>
-          <y:Arrows source="none" target="standard"/>
-        </y:GenericEdge>
-      </data>
-    </edge>
-    <edge id="e4" source="n5" target="n19">
+    <edge id="e3" source="n3" target="n16">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="71.625" sy="62.0" tx="168.125" ty="0.0">
-            <y:Point x="805.125" y="1463.875"/>
-            <y:Point x="782.3400659793815" y="1486.6599340206185"/>
+            <y:Point x="760.6804639175257" y="1463.875"/>
+            <y:Point x="737.8955298969072" y="1486.6599340206185"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
           <y:Arrows source="none" target="standard"/>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e5" source="n0" target="n2">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-20.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e6" source="n2" target="n1">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-26.364758762886595"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e7" source="n1" target="n6">
+    <edge id="e4" source="n4" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-26.364758762886595"/>
@@ -472,37 +487,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e8" source="n6" target="n3">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-26.364758762886595"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e9" source="n7" target="n9">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-26.364758762886595"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e10" source="n9" target="n8">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-26.364758762886595"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e11" source="n10" target="n12">
+    <edge id="e5" source="n7" target="n9">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="28.0" tx="0.0" ty="-26.364758762886595"/>
@@ -512,7 +497,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n12" target="n11">
+    <edge id="e6" source="n9" target="n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-20.0"/>
@@ -522,7 +507,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n11" target="n10">
+    <edge id="e7" source="n8" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-116.5" sy="0.0" tx="-116.5" ty="0.0">
@@ -535,7 +520,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e14" source="n11" target="n13">
+    <edge id="e8" source="n8" target="n10">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-26.364758762886595"/>
@@ -545,7 +530,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n13" target="n14">
+    <edge id="e9" source="n10" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-20.0"/>
@@ -555,12 +540,12 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n14" target="n7">
+    <edge id="e10" source="n11" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-134.5" sy="0.0" tx="-134.5" ty="0.0">
             <y:Point x="141.8113402061855" y="1104.8361402061855"/>
-            <y:Point x="141.8113402061855" y="465.18855257731957"/>
+            <y:Point x="141.8113402061855" y="547.9180701030928"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -568,7 +553,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n15" target="n16">
+    <edge id="e11" source="n12" target="n13">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-20.0"/>
@@ -578,7 +563,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n16" target="n17">
+    <edge id="e12" source="n13" target="n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-20.0"/>
@@ -588,12 +573,12 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n16" target="n2">
+    <edge id="e13" source="n13" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-168.125" sy="0.0" tx="-168.125" ty="0.0">
             <y:Point x="94.71829896907218" y="1340.295175257732"/>
-            <y:Point x="94.71829896907218" y="147.0"/>
+            <y:Point x="94.71829896907218" y="312.4590350515464"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -601,7 +586,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n17" target="n19">
+    <edge id="e14" source="n14" target="n16">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-26.364758762886595"/>
@@ -611,7 +596,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n19" target="n20">
+    <edge id="e15" source="n16" target="n17">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-28.0"/>
@@ -621,7 +606,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n20" target="n18">
+    <edge id="e16" source="n17" target="n15">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="28.0" tx="0.0" ty="-20.0"/>
@@ -631,7 +616,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e23" source="n18" target="n17">
+    <edge id="e17" source="n15" target="n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-168.125" sy="0.0" tx="-168.125" ty="0.0">
@@ -644,8 +629,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n8" target="n21">
-      <data key="d9"/>
+    <edge id="e18" source="n6" target="n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-26.364758762886595"/>
@@ -655,8 +639,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n21" target="n10">
-      <data key="d9"/>
+    <edge id="e19" source="n18" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-28.0"/>
@@ -666,8 +649,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n14" target="n4">
-      <data key="d9"/>
+    <edge id="e20" source="n11" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="20.0" tx="0.0" ty="-26.364758762886595"/>
@@ -677,8 +659,7 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n4" target="n15">
-      <data key="d9"/>
+    <edge id="e21" source="n2" target="n12">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="26.364758762886595" tx="0.0" ty="-26.364758762886595"/>
@@ -688,14 +669,34 @@ connection<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n5" target="n21">
+    <edge id="e22" source="n3" target="n18">
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.edge.framed">
+          <y:Path sx="-46.512346391752544" sy="62.013986597938015" tx="134.5" ty="0.0">
+            <y:Point x="642.5431175257731" y="701.9509266844767"/>
+            <y:Point x="634.121945016742" y="707.0123463917525"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:GenericEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n19" target="n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e24" source="n3" target="n6">
       <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
-          <y:Path sx="-23.875" sy="62.0" tx="134.5" ty="0.0">
-            <y:Point x="709.625" y="684.375"/>
-            <y:Point x="686.9876536082475" y="707.0123463917525"/>
-          </y:Path>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
           <y:Arrows source="none" target="standard"/>
         </y:GenericEdge>
