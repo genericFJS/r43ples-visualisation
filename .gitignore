@@ -21,3 +21,7 @@ $RECYCLE.BIN/
 /Dokumentation/*.bbl
 /Dokumentation/*.blg
 /Dokumentation/*.dvi
+/Dokumentation/*.out
+
+#Large Files
+/Dokumentation/Skizzen/*.psd
