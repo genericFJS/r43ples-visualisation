@@ -10,7 +10,9 @@
 \let\endmyBib\endthebibliography
 \renewcommand\thebibliography[1]{\ifx\relax#1\relax\else\myBib{#1}\fi}
 
+\usepackage{floatrow}
 \usepackage{graphicx}
+\usepackage{caption}
 \usepackage{grffile}
 \shorthandoff{"}	
 
@@ -73,7 +75,7 @@ Des weiteren ist die Auswahl der Informationen die von den Revisionen angezeigt 
 \caption{Vorgegebene Implementierung mit Viz.js}
 \end{figure}
 
-\paragraph{Überblicks- und Detailsicht}
+\paragraph{Überblicks- und Detailsicht}\label{parag-2ansichten}
 
 Wenn man die Idee der vorhandenen Implementierung beibehalten möchte, die die Informationen der Revisionen direkt in den Knoten des Graphen darstellt muss man sich überlegen, wie man bei großen Revisionsbäumen eine übersichtliche Darstellung erreicht.
 
@@ -112,49 +114,73 @@ Die DIN „Software-Ergonomie für Multimedia-Benutzungsschnittstellen“ DIN EN
     
 \chapter{Analyse und Entwurf}
 
+Nachdem das Thema eingeordnet, eine Entwurfstheorie entwickelt und dazu Literatur herausgesucht wurde, soll auf dieser Grundlage nun eine Analyse geschehen.
+
 \section{Analyse}
 
-\paragraph{Darstellungen anderer Subversion Systeme}
+\paragraph{Darstellungen anderer Subversion Systeme} Um das Rad nicht neu zu erfinden lohnt es sich die verschiedenen Visualisierungen für die bekannten Versionsverwaltungssysteme GIT und SVN zu betrachten. Dabei werden die Programme GitWeb \cite{url:git}, Gource \cite{url:svn-gource} und Gitready \cite{url:gitready} unter die Lupe genommen. Im Folgenden sollen diese kurz vorgestellt werden.
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=0.5\textwidth]{Skizzen/gource.jpg}
-\caption{gource Visualisierung}
-\end{figure}
-
-\begin{figure}[ht!]
-\centering
-\includegraphics[width=0.5\textwidth]{Skizzen/gitweb.png}
+\includegraphics[width=0.4\textwidth]{Skizzen/gitweb.png}
 \caption{gitweb Visualisierung}
+\label{gitweb-img}
 \end{figure}
 
+GitWeb ist eine simple, webbasierte Visualisierung für die Versionsverwaltung GIT. Sie ist im Standardinstallationsumfang von GIT enthalten und stellt die grundlegendste Visualisierungsmöglichkeit für GIT dar. Die Informationen werden dabei tabellarisch in absteigender Reihenfolge ihrer Aktualität dargestellt. In der ersten Spalte wird die Zeit seit dem zugehörigen Commit angegeben. Die zweite Spalte gibt den Namen des Nutzers an, der den jeweiligen Commit durchgeführt hat. In der dritten Spalte wird die Commit-Message wiedergegeben und in der vierten Spalte stehen einige Optionen zur Verfügung (Abb. \ref{gitweb-img}). Die Visualisierung mittels GitWeb ist klar, kompakt und verständlich, allerdings ist die Zugehörigkeit zu einzelnen Branches nicht klar erkennbar, da lediglich Commits zum Master-Branch als solche markiert werden.
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=0.5\textwidth]{Skizzen/gitready-gitk.png}
+\includegraphics[width=0.4\textwidth]{Skizzen/gource.jpg}
+\caption{Visualisierung durch gource}
+\label{gource-img}
+\end{figure}
+
+	Anders als GitWeb kann das Programm Gource nicht nur mit GIT, sondern auch mit SVN, CVS und anderen verwendet werden. Gource repräsentiert das Dateiverzeichnis als animierte Baumstruktur, bei der das Wurzelverzeichnis im Zentrum liegt (Abb. \ref{gource-img}). Die Blätter des Baumes repräsentieren Dateien. Avatare, die die Entwickler repräsentieren, arbeiten dabei in der selben Reihenfolge wie in der Realität an den einzelnen Dateien und Verzeichnissen, fügen neue hinzu oder entfernen überflüssige. Die Animation kann dabei jederzeit unterbrochen werden. Es werden weder Commit-Messages noch Änderungsdaten angezeigt, der Informationsgehalt der Animation hält sich also in Grenzen. Hierdurch ist Gource eher als Spielerei zur Unterhaltung der Entwickler oder zu Präsentationszwecken zu verstehen, denn als Werkzeug zur Überwachung der einzelnen Versionen.
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.4\textwidth]{Skizzen/gitready-gitk.png}
 \caption{gitready Visualisierung}
-\end{figure}
-\begin{itemize}
-\item SVN \cite{url:svn-gource}
-\item GIT \cite{url:git}
-\item GIT \cite{url:gitready}
-\end{itemize}
-
-\section{Entwurf}
-
-\newpage
-\begin{figure}[ht!]
-\centering
-\includegraphics[width=\textwidth]{Skizzen/2014-12-12 VisualisierungsSkizze.png}
-\caption{Erste Skizze}
+\label{gitready-img}
 \end{figure}
 
-\newpage
+	Gitready ähnelt eher GitWeb als Gource. Hier werden die einzelnen Branches als verschiedenfarbige Linien, die parallel nebeneinander auf der linken Seite des Bildschirms verlaufen, dargestellt (Abb. \ref{gitready-img}). Kreise auf den Linien repräsentieren einzelne Commits. Da jeder Commit eine eigene Zeile zugewiesen bekommt ist die Reihenfolge klar ersichtlich. Rechts neben den einzelnen Linien werden die jeweiligen Commit-Messages angezeigt. Auf Grund der Abschnittsweise großen Distanz zwischen Knoten und Message ist das Gesetz der Nähe nicht immer gegeben. Dadurch kann es zu fehlerhaften Zuweisungen zwischen Commit und Message kommen. Allerdings bietet die Darstellung mittels Gitready einen guten Kompriss zwischen Übersichtlichkeit und Informationsgehalt der betrachteten Visualisierungsprogramme. 
+
+\section{Entwurf}	
+
+Bei dem stellt sich zunächst die Frage, ob den in der Analyse betrachteten Systemen lediglich nachgeahmt werden soll oder ob neue Ideen einfließen dürfen. Obgleich die Analyse ergeben hat, dass die Visualisierung wie sie von gitready genutzt wird unsere geforderten Qualitäten von „Übersichtlichkeit“, „Verständlichkeit“ und „angemessenem Informationsgehalt“ gut erfüllt, wurde zunächst ein neuer Weg eingeschlagen. Dieser sollte angelehnt an moderne graphische Oberflächen optisch ansprechend sein und dadurch die geforderte Übersichtlich- und Verständlichkeit erfüllen.
+
+\paragraph{Erster Entwurf}
+Bei dieser Überlegung ist ein erster Entwurf heraus gekommen, der sich auf folgende Stärken konzentriert (Abb. \ref{entwurf-img}):
+
+Vor allem die Übersichtlichkeit und Verständlichkeit soll durch breit gestaltete Führungslinien zwischen Commits (bzw. Revisionen bei r43ples) sichergestellt werden. Durch die Einordnung in „Spalten“ sollen die Branches eindeutig erkannt werden. Tags sollen zur genauen Zuordnung als wichtige Information direkt am Commit dran stehen.
+
+Als zweite Ebene sollte entsprechend der Idee in der Theoriebildung (Paragraph „Überblicks- und Detailansicht in Abschnitt“ \ref{parag-2ansichten}) eine Detailansicht angezeigt werden. Diese soll sich nach einem Klick auf den entsprechenden Commit öffnet, den Hintergrund abdunkeln und alle wichtigen Details darstellen (Abb. \ref{entwurf_detail-img}).
+
+\paragraph{Probleme beim Entwurf}
+
+Durch den Fokus auf die Benutzerführung durch große Commit-Blätter und breite Zweige ergibt sich allerdings das Problem des benötigten Platzes. Vor allem bei größeren Graphen wenn nicht mehr der gesamte Graph auf eine Seite passt (oder das Browserfenster verkleinert wurde), würde sich die Übersichtlichkeit ins Gegenteil umkehren.
+
+Zudem wurde aus Gründen des Platzes auch entschieden, dass nicht jedes Commit eine eigene „Zeile“ erhalten kann, wodurch allerdings die chronologische Abfolge nicht gegeben ist und diese Information nicht auf dem ersten Blick zu erfassen ist.
+
+Aufgrund dieser Nachteile wurde sich in der Implementation des Gestaltungsentwurfs dafür entschieden die in der Analyse gelobte Darstellung von GitReady (Abb. \ref{gitready-img}) nachzuahmen. In dieser Darstellung begegnet man den genannten Problemen nicht, hat aber eine vergleichbare Übersicht.
+
+
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=\textwidth]{Skizzen/2015-01 VisualisierungsSkizze-rev.png}
-\caption{Überarbeitete Skizze}
+\includegraphics[width=0.8\textwidth]{Skizzen/2015-01 VisualisierungsSkizze-rev.png}
+\caption{Skizze für ersten Entwurf}
+\label{entwurf-img}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\textwidth]{Skizzen/2015-01 VisualisierungsSkizze-rev_detail.png}
+\caption{Skizze für die Detailansicht des ersten Entwurfs}
+\label{entwurf_detail-img}
 \end{figure}
 
 \chapter{Pflichtenheft}
+
+Im Rahmen des Praktikums erfolgte eine Erstellung eines Pflichtenhefts welches hier nachzulesen ist.
 
 Die Erstellung des Pflichtenhefts erfolgt entsprechend der Empfehlungen des IEEE Guide for Software Requirements Specifications (SRS) \cite{ieee1998ieee}. Die dort empfohlene Struktur wird in deutscher Übersetzung nach Balzert \cite{balzert2009lehrbuch} übernommen.
 
@@ -193,32 +219,62 @@ Die Erstellung des Pflichtenhefts erfolgt entsprechend der Empfehlungen des IEEE
 \item Nutzer ist mit r43ples und dem semantic web vertraut
 \end{itemize}
 
-\chapter{Gestaltungsentwurf}
+\chapter{Gestaltungsentwurf / Implementation}
 
-\begin{itemize}
-\item Framework zu svg-Generierung: Apache Batik
-\begin{itemize}
-\item implementiert die Java Graphics2D API → Code zum Zeichnen kann wiederverwendet werden, z.B. auf einem AWT Canvas
-\end{itemize}
-\item Neue Datenstruktur „StructuredTree“ bildet den Commitgraph ab und vereinfacht das Arbeiten mit den Commits
-\begin{itemize}
-\item beinhaltet doppelt verknüpften Graphen der Commits, Liste der Branches und Liste der Tags, beides jeweils mit Referenzen auf die Commits
-\item kapselt die Logik zum Generieren der Datenstruktur aus dem SPARQL Result
-\end{itemize}
-\item Trennung von Commit-Graph und Zusatzinformationen durch Regel: Ein Commit pro Zeile
-\begin{itemize}
-\item → bessere Übersichtlichkeit für den Anwender, da die Beschriftungen nicht die Außmaße des Graphen vergrößern → Graph bleibt kompakt, geringe Augenbewegungen nötig um den Graphen vollständig zu erfassen.
-\item Reihenfolge der Commits sofort erkennbar, da pro Zeile nur ein Commit
-\item Um von Commit-„Punkt“ im Graphen zur Beschriftung zu gelangen nur eine geradlinige horizontale Augenbewegung nötig → trotz Trennung hohe Lesegeschwindigkeit (siehe Literatur: „Information Visualisation“)
-\end{itemize}
-\item Commit-Graph verläuft in Spalten, pro Spalte ein Branch → gute Übersichtlichkeit
-\begin{itemize}
-\item verschiedene Spalten außerdem verschieden eingefärbt → ebenfalls Erhöhung der Übersichtlichkeit
-\item Farbwahl sollte der Ermüdung des Auges verbeugen
-\end{itemize}
-\item Zeitpunkt des Commits wird nur tagesgenau wiedergegeben + Ausgabe des Datums nur wenn Änderung zu vorhergehendem Commit → Herabsetzen des Informationsgehaltes und Vermeiden von Redundanzen damit der Anwender die Daten schneller überblicken kann
-\end{itemize}
+Nachdem sich in der Analyse nach dem ersten Entwurf für eine Darstellung ähnlich der von GitReady (Abb. \ref{gitready-img}) entschieden wurde, war der erste Schritt zur Implementation das github-Projekt zu forken und alle benötigten Dienste (Virtuoso) zu installieren um es in der eigenen Entwicklungsumgebung (eclipse) lauffähig zu machen.
 
+Dann konnte das coden angegangen werden. Im Folgenden sollen einige wichtige (Design-) Entscheidungen aufgeführt werden.
+
+\section{Implementation}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\textwidth]{Skizzen/revisiongraph.png}
+\caption{Das Ergebnis der Implementation}
+\label{implementation-img}
+\end{figure}
+
+\paragraph{Framework}
+Zuerst wurde entschieden, welches Framework verwendet werden soll, um die Visualisierung darzustellen. Die Ausgabe sollte als svg-Datei erfolgen, da dieses eine flexible Einbindung in die Weboberfläche bietet.
+
+Dem entsprechend wurde das Apache Batik Framework genutzt, da dieses die Java Graphics2D API implementiert und dadurch Code zum Zeichnen (beispielsweise auf einem AWT Canvas) wiederverwendet werden kann.
+
+\paragraph{Commitgraph}
+Der Commitgraph soll durch eine neue Datenstruktur des „StructuredTree“'s dargestellt werden um die Arbeit mit Commits zu vereinfachen. Dieser beinhaltet einen doppelt verknüpften Graphen der Commits, eine Liste der Branches und eine Liste der Tags. Beide Listen haben dabei jeweils Referenzen auf die Commits.
+
+Hierdurch wird die Logik zum Generieren der Datenstruktur aus dem SPARQL Result abgekapselt.
+
+\paragraph{Informationsdarstellung}
+
+Entsprechend der Darstellung von GitReady sollen der Commit-Graph und die Informationen zu den Commits nebeneinander dargestellt werden. Dafür ist es wichtig, dass pro Zeile im Commit-Graphen nur ein Commit dargestellt wird um die entsprechenden Informationen daneben anzeigen zu können.
+
+Mit dieser „ein Commit pro Zeile“-Regel erzeugt man eine bessere Übersichtlichkeit für den Anwender, da die Beschriftungen nicht die Außmaße des Graphen vergrößern. Somit bleibt der Graph kompakt und es sind nur geringe Augenbewegungen nötig um den Graphen vollständig zu erfassen.
+
+Zusätzlich ist die chronologische Reihenfolge der Commits sofort erkennbar.
+
+Des weiteren ist nur eine geradlinige horizontale Augenbewegung nötig um von Commit-„Punkt“ im Graphen zur Beschriftung zu gelangen. Somit hat man trotz der Informations-Trennung eine hohe Lesegeschwindigkeit (siehe Literatur \cite{goldberg:visualization-evaluation}).
+
+Der Commit-Graph verläuft in Spalten, wobei pro Spalte ein Branch dargestellt wird. Diese eindeutige Zuordnung der Spalten zum Branch ist ebenfalls ein Gewinn für die Übersichtlichkeit, die durch die Einfärbung der Branches (=Spalten) weiter erhöht wird. Bei der Auswahl der Farben für die Branches wurde außerdem darauf geachtet keine aggressiven oder grellen Farben zu verwenden, um einer Ermüdung des Auges vorzubeugen.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.7\textwidth]{Skizzen/PAP_gesamt.jpg}
+\caption{PAP der Darstellung des Commitgraphs}
+\label{pap-img}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.8\textwidth]{Skizzen/PAP_getColumnForCommit.jpg}
+\caption{Abschnitt des PAPs für die Column-generierung}
+\label{pap-column-img}
+\end{figure}
+
+\section{Ausblick}
+
+Die vorhandene Implementation hat unsere Ziele für das Projekt erreicht: Der Graph für die Darstellung der Revisionen ist  Übersichtlich, Verständlich und bietet einen angemessen Informationsgehalt.
+
+Trotzdem könnte man ihn noch verbessern, indem man beispielsweise redundante Informationen weglässt, was der Übersichtlichkeit zuträglich käme. Zum Beispiel könnte man bei aufeinander folgenden Commits vom selben Autor in der zweiten Zeile den Autor weglassen. Des weiteren könnte die Zeitangabe anders dargestellt werden, zum Beispiel in dem man bloß Tag-genau arbeitet und nur bei einer Änderung des Tages die Information in der entsprechenden Zeile darstellt.
 %\chapter{Abgabe}
 
 \bibliographystyle{unsrt}
