@@ -63,11 +63,11 @@ Eine andere Möglichkeit stellt die direkte Integration in das R43ples-Projekt a
 Nachdem die Daten für das System über die Schnittstelle beschafft wurden, ist eine Hauptaufgabe diese als graphische Darstellung zu realisieren.
 
 Eine erste Realisierung liegt bereits als einfache Implementierung mit Viz.js vor. 
-Diese ist allerdings als nicht besonders gut und lediglich als Platzhalter zu bewerten.
+Diese ist allerdings lediglich als Platzhalter zu bewerten.
 
 Der Graph wird anscheinend nach keinen gestalterischen Grundsätzen generiert. Bis auf die chronologische Auflistung der Revisionen von oben nach unten und die Pfeile als optische Hilfestellung wird keine weitere Hilfestellung geboten, die die Erfassung des Graphen erleichtern würde.
 
-Des weiteren ist die Auswahl der Informationen die von den Revisionen angezeigt werden nicht optimal. Sie bietet dem Nutzer nur zwei Informationen, wobei eine davon für den Nutzer uninteressant ist. Es fehlen aber andere wie beispielsweise der Autor oder das Datum.
+Des weiteren ist die Auswahl der Informationen die von den Revisionen angezeigt werden nicht optimal. Sie bietet dem Nutzer nur zwei Informationen, wobei eine davon für den Nutzer uninteressant ist. Es fehlen aber andere, wichtige Informationen wie beispielsweise der Autor oder das Datum.
 
 \begin{figure}[ht!]
 \centering
@@ -77,7 +77,7 @@ Des weiteren ist die Auswahl der Informationen die von den Revisionen angezeigt 
 
 \paragraph{Überblicks- und Detailsicht}\label{parag-2ansichten}
 
-Wenn man die Idee der vorhandenen Implementierung beibehalten möchte, die die Informationen der Revisionen direkt in den Knoten des Graphen darstellt muss man sich überlegen, wie man bei großen Revisionsbäumen eine übersichtliche Darstellung erreicht.
+Wenn die Idee der vorhandenen Implementierung beibehalten werden soll, die die Informationen der Revisionen direkt in den Knoten des Graphen darstellt, muss überlegt werden, wie bei großen Revisionsbäumen eine übersichtliche Darstellung erreicht werden kann.
 
 Um einen guten Kompromiss aus Informationsfülle und Übersichtlichkeit zu finden würde sich also vor allem bei vielen Daten ein Trennung des Graphen in eine Überblicks- und eine Detailansicht anbieten. So könnte man in einem Überblicksgraphen die wichtigsten Informationen anzeigen und durch das Navigieren auf eine spezielle Revision eine Detailansicht erreichen, die sämtliche relevanten Informationen darstellt.
 
@@ -104,7 +104,7 @@ In „Approaches to Visualising Linked Data: A Survey“ \cite{dadzie:linked-dat
 
 Ganz ähnlich bietet „A General Introduction To Graph Visualization Techniques“ \cite{tarawneh:graph-visualization} einen Überblick über die Visualisierungs-Optionen, wobei hier vermehrt Lösungen durch Graphen vorgestellt werden, was den Artikel etwas interessanter für das Projekt macht.
 
-Dann bietet sich nach der Theoriebildung an sich Literatur zu den gefundenen Problem- und Fragestellungen zu suchen.
+Nach der Theoriebildung bietet sich an nach Literatur zu den gefundenen Problem- und Fragestellungen zu suchen:
 
 Der Artikel „Eye tracking for visualization evaluation: Reading values on linear versus radial graphs“ \cite{goldberg:visualization-evaluation} führt auf, was die Unterschiede sind, ob man Graphen linear oder radial darstellt. Dabei wird der Schluss präsentiert, dass linear dargestellte Graphen deutlich einfacher auf den ersten Blick zu erfassen sind, weswegen in dem Projekt eine solche Darstellung verwendet werden soll.
 
@@ -146,18 +146,18 @@ GitWeb ist eine simple, webbasierte Visualisierung für die Versionsverwaltung G
 
 \section{Entwurf}	
 
-Bei dem stellt sich zunächst die Frage, ob den in der Analyse betrachteten Systemen lediglich nachgeahmt werden soll oder ob neue Ideen einfließen dürfen. Obgleich die Analyse ergeben hat, dass die Visualisierung wie sie von gitready genutzt wird unsere geforderten Qualitäten von „Übersichtlichkeit“, „Verständlichkeit“ und „angemessenem Informationsgehalt“ gut erfüllt, wurde zunächst ein neuer Weg eingeschlagen. Dieser sollte angelehnt an moderne graphische Oberflächen optisch ansprechend sein und dadurch die geforderte Übersichtlich- und Verständlichkeit erfüllen.
+Bei dem Entwurf stellt sich zunächst die Frage, ob den in der Analyse betrachteten Systemen lediglich nachgeahmt werden soll oder ob neue Ideen einfließen dürfen. Obgleich die Analyse ergeben hat, dass die Visualisierung wie sie von gitready genutzt wird unsere geforderten Qualitäten von „Übersichtlichkeit“, „Verständlichkeit“ und „angemessenem Informationsgehalt“ ausreichend erfüllt, wurde zunächst ein neuer Weg eingeschlagen. Dieser sollte angelehnt an moderne graphische Oberflächen optisch ansprechend sein und dadurch die geforderte Übersichtlich- und Verständlichkeit erfüllen.
 
 \paragraph{Erster Entwurf}
 Bei dieser Überlegung ist ein erster Entwurf heraus gekommen, der sich auf folgende Stärken konzentriert (Abb. \ref{entwurf-img}):
 
 Vor allem die Übersichtlichkeit und Verständlichkeit soll durch breit gestaltete Führungslinien zwischen Commits (bzw. Revisionen bei r43ples) sichergestellt werden. Durch die Einordnung in „Spalten“ sollen die Branches eindeutig erkannt werden. Tags sollen zur genauen Zuordnung als wichtige Information direkt am Commit dran stehen.
 
-Als zweite Ebene sollte entsprechend der Idee in der Theoriebildung (Paragraph „Überblicks- und Detailansicht in Abschnitt“ \ref{parag-2ansichten}) eine Detailansicht angezeigt werden. Diese soll sich nach einem Klick auf den entsprechenden Commit öffnet, den Hintergrund abdunkeln und alle wichtigen Details darstellen (Abb. \ref{entwurf_detail-img}).
+Als zweite Ebene sollte entsprechend der Idee in der Theoriebildung (Paragraph „Überblicks- und Detailansicht“ in Abschnitt \ref{parag-2ansichten}) eine Detailansicht angezeigt werden. Diese soll sich nach einem Klick auf den entsprechenden Commit öffnet, den Hintergrund abdunkeln und alle wichtigen Details darstellen (Abb. \ref{entwurf_detail-img}).
 
 \paragraph{Probleme beim Entwurf}
 
-Durch den Fokus auf die Benutzerführung durch große Commit-Blätter und breite Zweige ergibt sich allerdings das Problem des benötigten Platzes. Vor allem bei größeren Graphen wenn nicht mehr der gesamte Graph auf eine Seite passt (oder das Browserfenster verkleinert wurde), würde sich die Übersichtlichkeit ins Gegenteil umkehren.
+Durch den Fokus auf die Benutzerführung durch große Commit-Blätter und breite Zweige ergibt sich allerdings das Problem des benötigten Platzes. Vor allem bei größeren Graphen, wenn nicht mehr der gesamte Graph auf eine Seite passt (oder das Browserfenster verkleinert wurde), würde sich die Übersichtlichkeit ins Gegenteil umkehren.
 
 Zudem wurde aus Gründen des Platzes auch entschieden, dass nicht jedes Commit eine eigene „Zeile“ erhalten kann, wodurch allerdings die chronologische Abfolge nicht gegeben ist und diese Information nicht auf dem ersten Blick zu erfassen ist.
 
@@ -182,7 +182,7 @@ Aufgrund dieser Nachteile wurde sich in der Implementation des Gestaltungsentwur
 
 Im Rahmen des Praktikums erfolgte eine Erstellung eines Pflichtenhefts welches hier nachzulesen ist.
 
-Die Erstellung des Pflichtenhefts erfolgt entsprechend der Empfehlungen des IEEE Guide for Software Requirements Specifications (SRS) \cite{ieee1998ieee}. Die dort empfohlene Struktur wird in deutscher Übersetzung nach Balzert \cite{balzert2009lehrbuch} übernommen.
+Die Erstellung des Pflichtenhefts erfolgt entsprechend der Empfehlungen des IEEE Guide for Software Requirements Specifications (SRS) \cite{ieee1998ieee}. Die dort empfohlene Struktur wird in deutscher Übersetzung nach Balzert \cite{balzert2009lehrbuch} stichpunktartig knapp übernommen.
 
 \section{Produktfunktionen}
 \subsection{Muss}
@@ -221,61 +221,95 @@ Die Erstellung des Pflichtenhefts erfolgt entsprechend der Empfehlungen des IEEE
 
 \chapter{Gestaltungsentwurf / Implementation}
 
-Nachdem sich in der Analyse nach dem ersten Entwurf für eine Darstellung ähnlich der von GitReady (Abb. \ref{gitready-img}) entschieden wurde, war der erste Schritt zur Implementation das github-Projekt zu forken und alle benötigten Dienste (Virtuoso) zu installieren um es in der eigenen Entwicklungsumgebung (eclipse) lauffähig zu machen.
+In der Analyse nach dem ersten Entwurf wurde die Entscheidung für eine Darstellung ähnlich der von GitReady (Abb. \ref{gitready-img}) getroffen.
 
-Dann konnte das coden angegangen werden. Im Folgenden sollen einige wichtige (Design-) Entscheidungen aufgeführt werden.
+Der erste Schritt zur Implementation war das github-Projekt zu forken und alle benötigten Dienste (Virtuoso) zu installieren um es in der eigenen Entwicklungsumgebung (eclipse) lauffähig zu machen.
+
+Im Folgenden sollen einige wichtige (Design-) Entscheidungen aufgeführt werden, die bei der Implementation entstanden sind.
 
 \section{Implementation}
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=0.8\textwidth]{Skizzen/revisiongraph.png}
-\caption{Das Ergebnis der Implementation}
+\includegraphics[width=0.6\textwidth]{Skizzen/revisiongraph.png}
+\caption{Das erste Ergebnis der Implementation}
 \label{implementation-img}
 \end{figure}
 
 \paragraph{Framework}
-Zuerst wurde entschieden, welches Framework verwendet werden soll, um die Visualisierung darzustellen. Die Ausgabe sollte als svg-Datei erfolgen, da dieses eine flexible Einbindung in die Weboberfläche bietet.
+Zuerst wurde entschieden welches Framework verwendet werden soll, um die Visualisierung darzustellen. Die Ausgabe sollte als svg-Datei erfolgen, da dieses eine flexible Einbindung in die Weboberfläche bietet.
 
-Dem entsprechend wurde das Apache Batik Framework genutzt, da dieses die Java Graphics2D API implementiert und dadurch Code zum Zeichnen (beispielsweise auf einem AWT Canvas) wiederverwendet werden kann.
+Dem entsprechend wurde das Apache Batik Framework genutzt, da dieses die Java Graphics2D API implementiert und somit Code zum Zeichnen (beispielsweise auf einem AWT Canvas) wiederverwendet werden kann.
 
 \paragraph{Commitgraph}
-Der Commitgraph soll durch eine neue Datenstruktur des „StructuredTree“'s dargestellt werden um die Arbeit mit Commits zu vereinfachen. Dieser beinhaltet einen doppelt verknüpften Graphen der Commits, eine Liste der Branches und eine Liste der Tags. Beide Listen haben dabei jeweils Referenzen auf die Commits.
+Der Commitgraph soll durch eine neue Datenstruktur des „StructuredTree“s dargestellt werden, um die Arbeit mit Commits zu vereinfachen. Dieser beinhaltet einen doppelt verknüpften Graphen der Commits, eine Liste der Branches und eine Liste der Tags. Beide Listen haben dabei jeweils Referenzen auf die Commits.
 
 Hierdurch wird die Logik zum Generieren der Datenstruktur aus dem SPARQL Result abgekapselt.
 
 \paragraph{Informationsdarstellung}
 
-Entsprechend der Darstellung von GitReady sollen der Commit-Graph und die Informationen zu den Commits nebeneinander dargestellt werden. Dafür ist es wichtig, dass pro Zeile im Commit-Graphen nur ein Commit dargestellt wird um die entsprechenden Informationen daneben anzeigen zu können.
+Entsprechend der Darstellung von GitReady sollen der Commit-Graph und die Informationen zu den Commits nebeneinander dargestellt werden. Dafür ist es wichtig, dass pro Zeile im Commit-Graphen nur ein Commit dargestellt wird, um die entsprechenden Informationen daneben anzeigen zu können.
 
-Mit dieser „ein Commit pro Zeile“-Regel erzeugt man eine bessere Übersichtlichkeit für den Anwender, da die Beschriftungen nicht die Außmaße des Graphen vergrößern. Somit bleibt der Graph kompakt und es sind nur geringe Augenbewegungen nötig um den Graphen vollständig zu erfassen.
+Mit dieser „ein Commit pro Zeile“-Regel erzeugt man eine bessere Übersichtlichkeit für den Anwender, da die Beschriftungen nicht die Ausmaße des Graphen vergrößern. Somit bleibt der Graph kompakt und kann mit wenigen Blicken erfasst werden.
 
-Zusätzlich ist die chronologische Reihenfolge der Commits sofort erkennbar.
-
-Des weiteren ist nur eine geradlinige horizontale Augenbewegung nötig um von Commit-„Punkt“ im Graphen zur Beschriftung zu gelangen. Somit hat man trotz der Informations-Trennung eine hohe Lesegeschwindigkeit (siehe Literatur \cite{goldberg:visualization-evaluation}).
+Des weiteren ist nur eine geradlinige horizontale Augenbewegung nötig um von Commit\-„Punkt“ im Graphen zur Beschriftung zu gelangen. Somit hat man trotz der Informations-Trennung eine hohe Lesegeschwindigkeit (siehe Literatur \cite{goldberg:visualization-evaluation}).
 
 Der Commit-Graph verläuft in Spalten, wobei pro Spalte ein Branch dargestellt wird. Diese eindeutige Zuordnung der Spalten zum Branch ist ebenfalls ein Gewinn für die Übersichtlichkeit, die durch die Einfärbung der Branches (=Spalten) weiter erhöht wird. Bei der Auswahl der Farben für die Branches wurde außerdem darauf geachtet keine aggressiven oder grellen Farben zu verwenden, um einer Ermüdung des Auges vorzubeugen.
 
+\paragraph{Überarbeitung für weniger Redundanz}
+
+Nach einer ersten Implementationsphase wurde das Ergebnis (Abb. \ref{implementation-img}) bewertet. Dabei wurde festgestellt, dass es bei der Informationsdarstellung, vor allem bei der Datumsdarstellung viel Redundanz gibt. Für eine besser Übersicht wurde deshalb entschieden die Zeit-Angabe nur noch Tag-genau darzustellen (da die genau Zeit nicht so wichtig ist und bei direkt aufeinanderfolgenden Commits mehr das „welcher vor welchem“ und weniger das „welcher genau wann vor welchem“ zählt).
+
+Herausgekommen ist das in den folgenden Abbildungen beispielhaft dargestellte Ergebnis:
+
 \begin{figure}[ht!]
-\centering
-\includegraphics[width=0.7\textwidth]{Skizzen/PAP_gesamt.jpg}
-\caption{PAP der Darstellung des Commitgraphs}
-\label{pap-img}
+\begin{floatrow}
+\ffigbox{
+\includegraphics[width=0.4\textwidth]{Skizzen/revisiongraph_http---exampleGraph.com-r43ples-merge.png}}{
+\caption{Bsp. Merge-Graph}
+\label{imp-f1}}
+
+\ffigbox{
+\includegraphics[width=0.4\textwidth]{Skizzen/revisiongraph_http---test.com-r43ples-dataset-1.png}}{
+\caption{Bsp. Test Datensatz}
+\label{imp-f2}}
+\end{floatrow}
 \end{figure}
 
 \begin{figure}[ht!]
-\centering
-\includegraphics[width=0.8\textwidth]{Skizzen/PAP_getColumnForCommit.jpg}
-\caption{Abschnitt des PAPs für die Column-generierung}
-\label{pap-column-img}
+\includegraphics[width=0.4\textwidth]{Skizzen/revisiongraph_http---test.com-r43ples-dataset-merging.png}
+\caption{Bsp. zweiter Merge-Graph}
+\label{imp-f3}
 \end{figure}
+
 
 \section{Ausblick}
 
 Die vorhandene Implementation hat unsere Ziele für das Projekt erreicht: Der Graph für die Darstellung der Revisionen ist  Übersichtlich, Verständlich und bietet einen angemessen Informationsgehalt.
 
-Trotzdem könnte man ihn noch verbessern, indem man beispielsweise redundante Informationen weglässt, was der Übersichtlichkeit zuträglich käme. Zum Beispiel könnte man bei aufeinander folgenden Commits vom selben Autor in der zweiten Zeile den Autor weglassen. Des weiteren könnte die Zeitangabe anders dargestellt werden, zum Beispiel in dem man bloß Tag-genau arbeitet und nur bei einer Änderung des Tages die Information in der entsprechenden Zeile darstellt.
+Nach statistischer Erfassung des Nutzerverhaltens und Nutzerbefragungen könnte man noch evaluieren was an der Darstellungsform noch optimiert werden kann. 
+
+Des weiteren könnte die Darstellung beispielsweise durch mouse-over Fenster bei Commits noch mit mehr Informationen gefüttert werden. 
+
+Sollte sich die Lösung für den Kunden als eine gute bzw. die beste der zur Wahl stehenden Lösungen herausstellen, wäre außerdem noch eine nahtlosere Einbindung in die vorhandene graphische Benutzeroberfläche erstrebenswert.
 %\chapter{Abgabe}
+
+\section*{Anhang}
+Hier sind noch die Programm-Ablauf-Pläne zu finden, die die Funktion der Implementation verdeutlichen:
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=0.65\textwidth]{Skizzen/PAP_getColumnForCommit.jpg}
+\caption{Abschnitt des PAPs für die Column-generierung}
+\label{pap-column-img}
+\end{figure}
+
+\begin{figure}[hb!]
+\centering
+\includegraphics[width=0.65\textwidth]{Skizzen/PAP_gesamt.jpg}
+\caption{PAP der Darstellung des Commitgraphs}
+\label{pap-img}
+\end{figure}
+
 
 \bibliographystyle{unsrt}
 \bibliography{Literatur}
